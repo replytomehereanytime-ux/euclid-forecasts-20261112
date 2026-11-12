@@ -1,0 +1,77 @@
+# X thread draft for the author to post. NOT posted by the assembler. REV1.
+# Author of every post: C.A.S.D.R
+# Numbering 1/35 is included in the 280-character limit (verified).
+# Each CTC distance curve is split across two posts (DM/rd then DH/rd, labelled 1/2 and 2/2); the pair is one prediction.
+# Wording: prospective, model-conditional. Venue pending author confirmation.
+# Foundation (12 Nov 2026) only timestamps these forecasts; galaxy clustering and weak lensing for the strongest tests are due mid-2027 (DR1 Complete).
+# Comment lines are not part of the thread.
+
+1/35 C.A.S.D.R. Prospective, model-conditional forecasts (Euclid, DESI Y5). Foundation (12 Nov 2026) only timestamps these forecasts. Galaxy clustering and weak lensing for the strongest tests are due mid-2027 (DR1 Complete). Distance grids not independent. Draft, not posted.
+
+2/35 C.A.S.D.R. CTC-1P (1/2), prospective, model-conditional. Flat ΛCDM BAO-only, primary. DR1 Complete, not Foundation. DM/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 21.0789±0.0710, 25.9885±0.0760, 30.1415±0.0837, 33.6928±0.0944. R02 2026-11-12 04:51 ET.
+
+3/35 C.A.S.D.R. CTC-1P (2/2), prospective, model-conditional. Flat ΛCDM BAO-only, primary. DR1 Complete, not Foundation. DH/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 17.8273±0.0666, 15.0084±0.0736, 12.7642±0.0739, 10.9785±0.0704. R02 2026-11-12 04:51 ET.
+
+4/35 C.A.S.D.R. CTC-1B (1/2), prospective, model-conditional. Flat ΛCDM BAO-only, Lyα repl.. DR1 Complete, not Foundation. DM/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 21.1067±0.0689, 26.0102±0.0750, 30.1554±0.0828, 33.6987±0.0927. R02 2026-11-12 04:51 ET.
+
+5/35 C.A.S.D.R. CTC-1B (2/2), prospective, model-conditional. Flat ΛCDM BAO-only, Lyα repl.. DR1 Complete, not Foundation. DH/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 17.8121±0.0617, 14.9844±0.0663, 12.7373±0.0658, 10.9516±0.0624. R02 2026-11-12 04:51 ET.
+
+6/35 C.A.S.D.R. CTC-2P-R03 (1/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). Flat ΛCDM BAO+CMB, primary. DM/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 21.1420±0.0625, 26.0500±0.0657, 30.1982±0.0661, 33.7434±0.0652. R03 2026-11-12.
+
+7/35 C.A.S.D.R. CTC-2P-R03 (2/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). Flat ΛCDM BAO+CMB, primary. DH/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 17.8307±0.0184, 14.9964±0.0069, 12.7452±0.0049, 10.9570±0.0064. R03 2026-11-12.
+
+8/35 C.A.S.D.R. CTC-2B-R03 (1/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). Flat ΛCDM BAO+CMB, Lyα repl.. DM/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 21.1601±0.0612, 26.0691±0.0643, 30.2173±0.0648, 33.7622±0.0639. R03 2026-11-12.
+
+9/35 C.A.S.D.R. CTC-2B-R03 (2/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). Flat ΛCDM BAO+CMB, Lyα repl.. DH/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 17.8358±0.0180, 14.9977±0.0068, 12.7447±0.0049, 10.9555±0.0064. R03 2026-11-12.
+
+10/35 C.A.S.D.R. CTC-3P-R03 (1/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). wCDM BAO+CMB, PRIMARY, w=−1.028±0.042. DM/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 21.1264±0.0685, 26.0490±0.0665, 30.2083±0.0677, 33.7614±0.0696. R03 2026-11-12.
+
+11/35 C.A.S.D.R. CTC-3P-R03 (2/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). wCDM BAO+CMB, PRIMARY, w=−1.028±0.042. DH/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 17.8837±0.0805, 15.0394±0.0640, 12.7765±0.0465, 10.9786±0.0327. R03 2026-11-12.
+
+12/35 C.A.S.D.R. CTC-3B-R03 (1/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). wCDM BAO+CMB, REPLACEMENT, w=−1.027±0.042.. DM/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 21.1458±0.0668, 26.0687±0.0650, 30.2276±0.0665, 33.7800±0.0687. R03 2026-11-12.
+
+13/35 C.A.S.D.R. CTC-3B-R03 (2/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). wCDM BAO+CMB, REPLACEMENT, w=−1.027±0.042.. DH/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 17.8867±0.0807, 15.0389±0.0641, 12.7746±0.0465, 10.9762±0.0326. R03 2026-11-12.
+
+14/35 C.A.S.D.R. CTC-4P-R03 (1/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). oΛCDM BAO+CMB, PRIMARY, Ωk=+0.00199±0.00125. DM/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 21.0984±0.0681, 25.9919±0.0750, 30.1279±0.0794, 33.6631±0.0823. R03 2026-11-12.
+
+15/35 C.A.S.D.R. CTC-4P-R03 (2/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). oΛCDM BAO+CMB, PRIMARY, Ωk=+0.00199±0.00125. DH/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 17.7697±0.0423, 14.9403±0.0357, 12.6954±0.0316, 10.9131±0.0282. R03 2026-11-12.
+
+16/35 C.A.S.D.R. CTC-4B-R03 (1/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). oΛCDM BAO+CMB, REPLACEMENT, Ωk=+0.00198±0.00124.. DM/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 21.1152±0.0672, 26.0096±0.0742, 30.1458±0.0786, 33.6808±0.0816. R03 2026-11-12.
+
+17/35 C.A.S.D.R. CTC-4B-R03 (2/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). oΛCDM BAO+CMB, REPLACEMENT, Ωk=+0.00198±0.00124.. DH/rd z=0.9,1.2,1.5,1.8 (68.3% Laplace): 17.7749±0.0420, 14.9421±0.0354, 12.6954±0.0312, 10.9122±0.0278. R03 2026-11-12.
+
+18/35 C.A.S.D.R. CTC-5P-R03 (1/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). CPL BAO+CMB, primary. DM/rd z=0.9,1.2,1.5,1.8 (median [68%]): 21.049[20.977,21.122], 25.968[25.897,26.040], 30.161[30.088,30.232], 33.753[33.677,33.828]. R03 2026-11-12.
+
+19/35 C.A.S.D.R. CTC-5P-R03 (2/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). CPL BAO+CMB, primary. DH/rd z=0.9,1.2,1.5,1.8 (median [68%]): 17.761[17.661,17.860], 15.106[15.024,15.197], 12.904[12.829,12.983], 11.106[11.047,11.165]. R03 2026-11-12.
+
+20/35 C.A.S.D.R. CTC-5B-R03 (1/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). CPL BAO+CMB, Lyα repl.. DM/rd z=0.9,1.2,1.5,1.8 (median [68%]): 21.087[21.016,21.157], 26.007[25.938,26.076], 30.193[30.123,30.262], 33.777[33.704,33.851]. R03 2026-11-12.
+
+21/35 C.A.S.D.R. CTC-5B-R03 (2/2), prospective, model-conditional. R03-recomputed (r_s integral corrected). CPL BAO+CMB, Lyα repl.. DH/rd z=0.9,1.2,1.5,1.8 (median [68%]): 17.789[17.689,17.887], 15.093[15.012,15.182], 12.877[12.805,12.959], 11.080[11.021,11.143]. R03 2026-11-12.
+
+22/35 C.A.S.D.R. D-P4a, prospective, model-conditional. DESI DR3/Y5 (2027). BAO-only Ωm, flat ΛCDM. Ωm ∈ [0.288, 0.308] (0.298 ± 0.010). Central 68% prediction interval. Frozen text 2026-10-13.
+
+23/35 C.A.S.D.R. D-P4b, prospective, model-conditional. DESI DR3/Y5 (2027). BAO-only Ωm stays below the Planck value, flat ΛCDM. Ωm < 0.315 (threshold). Frozen text 2026-10-13.
+
+24/35 C.A.S.D.R. D-P8a, prospective, model-conditional. DESI DR3/Y5 (2027). Early-universe H0, ΛCDM, DESI Y5+CMB. H0 ∈ [67.8, 68.6] (68.2 ± 0.4) km/s/Mpc. Central 68% prediction interval. Frozen text 2026-10-13.
+
+25/35 C.A.S.D.R. D-P8c, prospective, model-conditional. Ladder H0, SH0ES, by 2027-12-31. 72.5 ≤ H0 ≤ 73.5 (stated range). Frozen text 2026-10-13.
+
+26/35 C.A.S.D.R. D-P2a, prospective, model-conditional. DESI DR3/Y5 (2027). Pivot w_p at z_p ≈ 0.4–0.5, w0waCDM. w_p ∈ [−1.06, −0.94] (−1.00 ± 0.06). Central 68% prediction interval. Frozen text 2026-10-13.
+
+27/35 C.A.S.D.R. D-P3a, prospective, model-conditional. DESI DR3/Y5 (2027). w0, wa boxes, w0waCDM. w0 ∈ [−0.86, −0.66]; wa ∈ [−1.15, −0.45] (−0.76 ± 0.10; −0.80 ± 0.35). Central 68% prediction interval. Frozen text 2026-10-13.
+
+28/35 C.A.S.D.R. D-P3b, prospective, model-conditional. DESI DR3/Y5 (2027). w0–wa quadrant not abandoned, w0waCDM. Central w0 ≥ −0.95 and wa ≤ −0.2 (threshold). Frozen text 2026-10-13.
+
+29/35 C.A.S.D.R. D-P3c, prospective, model-conditional. DESI DR3/Y5 (2027). w0, wa published 68% errors shrink ≥20% from DR2. e(w0) ≤ 0.0456 and e(wa) ≤ 0.176 (threshold). Frozen text 2026-10-13.
+
+30/35 C.A.S.D.R. D-P5a, prospective, model-conditional. DESI DR3/Y5 (2027). 95% upper limit on Σmν, ΛCDM. UL95 < 0.055 eV. Frozen text 2026-10-13.
+
+31/35 C.A.S.D.R. D-P5b, prospective, model-conditional. DESI DR3/Y5 (2027). No relaxed neutrino limit or detection, ΛCDM. UL95 ≤ 0.08 eV and no 95% lower bound > 0.06 eV. Frozen text 2026-10-13.
+
+32/35 C.A.S.D.R. D-P7, prospective, model-conditional. NOT READY. DESI Y5 catalogues. No hemispheric BAO difference, isotropic ΛCDM. 95% interval for Δα_iso inside (−3×10⁻³, +3×10⁻³). Frozen text 2026-10-13.
+
+33/35 C.A.S.D.R. E-CD-P2, prospective, model-conditional. NOT READY. Count-dipole direction. Foundation (12 Nov 2026) only timestamps this forecast; not galaxy clustering or weak lensing. Best-fit (l,b) within 30° of (242.28°, 37.10°). Archive sealed 2026-11-11 01:46:02 UTC.
+
+34/35 C.A.S.D.R. E-CD-P3, prospective, model-conditional. NOT READY. Dipole rises with redness or redshift. Foundation (12 Nov 2026) only timestamps this forecast; not galaxy clustering or weak lensing. Strictly increasing D, max/min ≥ 2. Archive sealed 2026-11-11 01:46:02 UTC.
+
+35/35 C.A.S.D.R. E-PHZ-1, prospective, model-conditional. NOT READY. Capped adaptive PHZ beats native PHZ (method, not cosmology). Foundation (12 Nov 2026) only timestamps this forecast. mean Brier(q) < mean Brier(p). Rule fixed before 2026-11-12.
