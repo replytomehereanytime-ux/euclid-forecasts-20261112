@@ -1,0 +1,30 @@
+{
+ "metadata": {
+  "title": "Prospective, model-conditional cosmology forecasts (12 November 2026) — REV3",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+   {
+    "name": "C.A.S.D.R"
+   }
+  ],
+  "version": "REV3",
+  "description": "REV3 of dated, model-conditional cosmology forecasts by C.A.S.D.R. REV3 supersedes all BAO + compressed-CMB rows of REV1/REV2 after calibration of the compressed Planck 2018 CMB prior (l_A control at the Planck mean now 301.4707; prior-only flat-ΛCDM fit H0 67.28, Ωm h² 0.1432). BAO-only rows are unchanged. Euclid DR1-Foundation (12 November 2026) only timestamps these forecasts; the strongest tests need DR1 Complete (mid-2027). No statistical-test claims are made.",
+  "keywords": [
+   "cosmology",
+   "forecast",
+   "Euclid",
+   "BAO",
+   "DESI",
+   "CMB distance prior",
+   "dark energy"
+  ],
+  "related_identifiers": [
+   {
+    "identifier": "https://github.com/replytomehereanytime-ux/euclid-forecasts-20261112",
+    "relation": "isSupplementTo"
+   }
+  ],
+  "license": "cc-by-4.0"
+ }
+}

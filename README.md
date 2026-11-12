@@ -1,3 +1,5 @@
+> **Notice (REV3, 2026-11-12):** the BAO + compressed-CMB rows in REV1 and REV2 (CTC-2 to CTC-5, wCDM w, oΛCDM Ωk, CPL w0/wa and bands, and the growth numbers) are **superseded by REV3** because the compressed CMB prior was mis-calibrated (l_A at the Planck 2018 mean was 302.24 instead of 301.4707). The BAO-only rows CTC-1P and CTC-1B are unchanged. REV1 and REV2 files are kept unchanged as frozen originals. See [REV3/CHANGELOG_REV3.md](REV3/CHANGELOG_REV3.md) and [REV3/PREDICTIONS_20261112_REV3.md](REV3/PREDICTIONS_20261112_REV3.md).
+
 # Prospective, model-conditional cosmology forecasts (12 November 2026)
 
 **Author:** C.A.S.D.R

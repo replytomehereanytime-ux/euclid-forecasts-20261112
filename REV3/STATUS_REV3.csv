@@ -1,0 +1,13 @@
+row,branch,model,status,detail
+CTC-1B,REPLACEMENT,LCDM BAO-only,PASS (unchanged from REV2),no CMB prior
+CTC-1P,PRIMARY,LCDM BAO-only,PASS (unchanged from REV2),no CMB prior
+CTC-2B-REV3,REPLACEMENT,LCDM,PASS,best fit Ωm 0.3013 h 0.6839 vs Fable 0.3009/0.6843; DM/rd 21.172/26.092/30.250/33.805 vs 21.166/26.085/30.243/33.798; DH/rd 17.870/15.033/12.779/10.987 vs 17.868/15.032/12.779/10.987; max abs difference 0.0074
+CTC-2P-REV3,PRIMARY,LCDM,RECOMPUTED; Fable comparison NOT_RUN,no independent Fable number for this row
+CTC-3B-REV3,REPLACEMENT,wCDM,RECOMPUTED; Fable comparison NOT_RUN,no independent Fable number for this row
+CTC-3P-REV3,PRIMARY,wCDM,RECOMPUTED; Fable comparison NOT_RUN,no independent Fable number for this row
+CTC-4B-REV3,REPLACEMENT,oLCDM,RECOMPUTED; Fable comparison NOT_RUN,no independent Fable number for this row
+CTC-4P-REV3,PRIMARY,oLCDM,RECOMPUTED; Fable comparison NOT_RUN,no independent Fable number for this row
+CTC-5B-REV3,REPLACEMENT,CPL,RECOMPUTED; Fable comparison NOT_RUN,no independent Fable number for this row
+CTC-5P-REV3,PRIMARY,CPL,RECOMPUTED; Fable comparison NOT_RUN,no independent Fable number for this row
+GR-1B-REV3,REPLACEMENT,LCDM growth,PASS,sigma8 0.817 S8 0.819 vs Fable 0.817/0.818
+GR-5B-REV3,REPLACEMENT,CPL growth,RECOMPUTED; Fable comparison NOT_RUN,no Fable number
