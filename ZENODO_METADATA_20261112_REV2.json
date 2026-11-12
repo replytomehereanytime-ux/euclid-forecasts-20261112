@@ -1,0 +1,52 @@
+{
+  "_draft_note": "DRAFT ONLY, REV2. Not submitted and not uploaded. Prepared 2026-11-12 ~05:55 ET (America/Toronto) for author review. Remove this key before any later use. Venue pending author confirmation. Euclid DR1-Foundation (12 November 2026) only timestamps these forecasts; galaxy-clustering and weak-lensing products for the strongest tests are scheduled for mid-2027 (DR1 Complete). The forecast is the REPLACEMENT (current-information) branch; PRIMARY is the legacy comparison only.",
+  "metadata": {
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "title": "Dated, falsifiable, model-conditional forecasts for DESI Year-5 and Euclid DR1 (12 November 2026 pack)",
+    "creators": [
+      {
+        "name": "C.A.S.D.R"
+      }
+    ],
+    "description": "Dated, falsifiable, model-conditional cosmology forecasts by C.A.S.D.R, recorded on 12 November 2026 (America/Toronto). Euclid DR1-Foundation (12 November 2026) only timestamps these forecasts. The galaxy-clustering and weak-lensing products needed for the strongest tests are scheduled for mid-2027 (DR1 Complete); today's Foundation release does not supply those measurements. The pack ranks prospective forecasts and clearly labelled conditional theory curves for (i) the first Euclid spectroscopic BAO distances DM/rd and DH/rd at z = 0.9, 1.2, 1.5 and 1.8, to be scored against a measurement built on Euclid DR1 Complete (mid-2027 or later), and (ii) DESI DR3 / Year-5 BAO cosmology results expected in 2027, plus one SH0ES H0 range. Foundation covers about 1,900 square degrees (catalogue-level); no full-mission precision is applied to it. Distance grid entries are not independent predictions. Where a sound-horizon integral truncation had held a BAO+CMB row, this pack uses an R03 revision labelled “R03-recomputed (r_s integral corrected)”; frozen originals are untouched and are not quoted. The forecast is the REPLACEMENT (current-information) branch; PRIMARY is the legacy comparison only. wCDM w is published as the MCMC median and standard deviation only. CPL bands are 68% only (posterior is prior-touched). Flat ΛCDM BAO+CMB predictive widths are parameter-only, conditional on the compressed CMB prior and massless-neutrino background, with a 0.1% systematic floor. Wording is prospective, model-conditional. This metadata file is a draft for Zenodo and OSF; nothing has been uploaded.",
+    "publication_date": "2026-11-12",
+    "version": "PUBLISH_20261112_REV2",
+    "language": "eng",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "cosmology",
+      "forecast",
+      "preregistration",
+      "DESI",
+      "Euclid",
+      "baryon acoustic oscillations",
+      "dark energy",
+      "falsifiability"
+    ],
+    "notes": "DRAFT, not uploaded. Euclid DR1-Foundation (12 November 2026) only timestamps these forecasts. Galaxy-clustering and weak-lensing products needed for the strongest tests are scheduled for mid-2027 (DR1 Complete). Licence and access choice pending owner confirmation. Author initials only: C.A.S.D.R. Venue pending author confirmation. This is REV2; v0 and REV1 files were not modified.",
+    "related_identifiers": [
+      {
+        "identifier": "arXiv:2503.14738",
+        "relation": "references",
+        "scheme": "arxiv"
+      },
+      {
+        "identifier": "arXiv:2607.27410",
+        "relation": "references",
+        "scheme": "arxiv"
+      },
+      {
+        "identifier": "arXiv:2605.03446",
+        "relation": "references",
+        "scheme": "arxiv"
+      },
+      {
+        "identifier": "arXiv:2407.09262",
+        "relation": "references",
+        "scheme": "arxiv"
+      }
+    ]
+  }
+}
