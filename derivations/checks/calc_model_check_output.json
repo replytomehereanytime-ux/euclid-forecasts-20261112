@@ -1,0 +1,76 @@
+{
+ "C1_desi_box_fit": {
+  "delta_chi2": 1.6527973488095853,
+  "dof": 2,
+  "p": 0.43762247285530953,
+  "sigma_two_sided": 0.7762142851612716
+ },
+ "C2_P1_sqrtV": {
+  "1.5x": 3.796709101313926,
+  "2.0x": 4.384062043356595
+ },
+ "C3_shrink": {
+  "w0_sigma_after_20pct": 0.0456,
+  "w0_sigma_after_30pct": 0.0399,
+  "wa_sigma_after_20pct": 0.17600000000000002,
+  "wa_sigma_after_30pct": 0.154,
+  "stated_P3_w0_pm": 0.1,
+  "stated_P3_wa_pm": 0.35,
+  "Om_DR2_sigma": 0.0086,
+  "Om_after_20pct": 0.006880000000000001,
+  "stated_P4_Om_pm": 0.01
+ },
+ "C4_Dkin_CatWISE": {
+  "beta": 0.001233586736861806,
+  "x1.529_a1.122": 0.006469592517767742,
+  "x1.755_a1.122": 0.0070611861763380315,
+  "note": "Euclid x (count slope) and alpha (spectral/flux index) for any Foundation selection are NOT in any artifact -> Euclid D_kin not computable"
+ },
+ "C5_P5_0of2000": {
+  "CP95_upper": 0.0014967448951882512,
+  "rule_of_three": 0.0015
+ },
+ "C6_geometry_z1": {
+  "DM/DH_from_means": 1.3565625934606775,
+  "stated_F_AP": 1.35658181,
+  "DV_from_means": 20.60618925516737,
+  "stated_DV": 20.60614078
+ },
+ "C6b_cmb_gaussian_z1": {
+  "DM/DH_from_means": 1.3588324050534937,
+  "stated_F_AP": 1.358831
+ },
+ "C7_AP": {
+  "0.295": {
+   "F_AP_flatLCDM": 0.3202810334812333,
+   "Rebound_AP": 0.270264,
+   "ratio_LCDM_over_Rebound": 1.1850673174423278,
+   "Rebound_AP_lt_z": true,
+   "LCDM_F_AP_gt_z": true
+  },
+  "0.51": {
+   "F_AP_flatLCDM": 0.5936645055313002,
+   "Rebound_AP": 0.409992,
+   "ratio_LCDM_over_Rebound": 1.4479904620853583,
+   "Rebound_AP_lt_z": true,
+   "LCDM_F_AP_gt_z": true
+  },
+  "0.706": {
+   "F_AP_flatLCDM": 0.8775548887320782,
+   "Rebound_AP": 0.439783,
+   "ratio_LCDM_over_Rebound": 1.9954270372708318,
+   "Rebound_AP_lt_z": true,
+   "LCDM_F_AP_gt_z": true
+  }
+ },
+ "C8_DESI_DR2_FAP_obs": {
+  "0.51": 0.6214891536355314,
+  "0.706": 0.8918211017171782,
+  "0.934": 1.223005193169959
+ },
+ "C9_HSU_inverse": {
+  "pos_pole": 0.9523809523809523,
+  "neg_pole": 1.0526315789473684,
+  "mean_atanh": 1.0008345855698253
+ }
+}

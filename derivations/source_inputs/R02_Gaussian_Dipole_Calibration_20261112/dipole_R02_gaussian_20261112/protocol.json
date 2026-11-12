@@ -1,0 +1,15 @@
+{
+ "version":"R02-G: exact Gaussian log-intensity reference, not a Poisson-count forecast",
+ "geometry":"512 Fibonacci directions; retain z>0.55 OR (z< -0.4 AND x>0)",
+ "science_model":"log intensity = log normalization + n.d + selection T.eta + Gaussian measurement noise + Gaussian correlated sky",
+ "selection":"log efficiency = log(0.4)+T.eta; T=[x,P2(z),x*z], eta=[0.02,0.03,-0.02]; finite 32 separate full-sky calibration directions with Gaussian noisy log-efficiency observations",
+ "calibration":"32 independent observations regenerated per replicate; standard deviation 0.01 or 0.05; no truth eta is supplied to estimator",
+ "noise":"science independent standard deviation 0.04; correlated-sky modes [x,y,z] each standard deviation 0.008 in declared correlated strata",
+ "estimator":"joint generalized least squares for [log normalization,dx,dy,dz,eta_x,eta_quad,eta_xz]; fixed analytic block covariance; nuisance and normalization fitted",
+ "region":"one fixed 95% joint three-dimensional Gaussian ellipsoid using fitted dipole and its marginal covariance; threshold chi-square dimension 3 quantile; no truth-indexed calibration",
+ "grid":[{"d":[0,0,0],"cal_sd":0.01,"sky_sd":0},{"d":[0.02,-0.015,0.01],"cal_sd":0.01,"sky_sd":0},{"d":[-0.02,0.015,-0.01],"cal_sd":0.05,"sky_sd":0},{"d":[0,0,0],"cal_sd":0.01,"sky_sd":0.008},{"d":[0.02,-0.015,0.01],"cal_sd":0.05,"sky_sd":0.008},{"d":[0.04,0,0],"cal_sd":0.01,"sky_sd":0.008}],
+ "replicates_per_stratum":2000,"seed":2026111221,
+ "gates":{"solver_difference":1e-10,"normalized_coordinate_bias_abs_max":0.10,"joint_coverage_range":[0.93,0.97],"full_rank":7,"relative_covariance_error_max":0.12},
+ "negative_controls":"same correlated samples analyzed ignoring sky covariance; independent calibration systematically offset by +0.03*x; no calibration leaves x dipole nonidentifiable",
+ "scope":"fixed synthetic Gaussian likelihood and known noise scales only; sky target deterministic d, random sky marginalized; no public preregistration, actual survey, significance claim or cosmological ranking"
+}

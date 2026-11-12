@@ -1,0 +1,115 @@
+{
+  "status": "NUMERICAL_CSV_AUDIT_NOT_PROVENANCE_AUTHENTICATION",
+  "h": 0.675,
+  "R_Mpc": 11.851851851851851,
+  "redshifts": {
+    "0": {
+      "n": 12001,
+      "kmin": 1e-05,
+      "kmax": 30.0,
+      "camb_self": {
+        "mean_abs": 0.00011822365247368437,
+        "max_abs": 0.0008123170989876582,
+        "signed_min": -0.0008123170989876582,
+        "signed_max": 0.0005727466249809687
+      },
+      "class_self": {
+        "mean_abs": 9.174849436120053e-05,
+        "max_abs": 0.000552687719184819,
+        "signed_min": -0.000552687719184819,
+        "signed_max": 1.9389294421134906e-05
+      },
+      "tight_cross": {
+        "mean_abs": 0.00014880003613175545,
+        "max_abs": 0.000876925857553501,
+        "signed_min": -0.000876925857553501,
+        "signed_max": 0.0003756475015495031
+      },
+      "cross_stats_scope": "Descriptive full dense grid; not the comparison-grid pass criterion",
+      "sigma8_integrated": {
+        "P_camb_base_Mpc3": 0.8059152718833162,
+        "P_camb_tight_Mpc3": 0.8059283579380054,
+        "P_class_base_Mpc3": 0.8059439209977665,
+        "P_class_tight_Mpc3": 0.8059537106232456
+      },
+      "sigma8_truncated_at_10": {
+        "P_camb_base_Mpc3": 0.8059152222255548,
+        "P_camb_tight_Mpc3": 0.8059283082931309,
+        "P_class_base_Mpc3": 0.805943871352302,
+        "P_class_tight_Mpc3": 0.8059536609561868
+      }
+    },
+    "1": {
+      "n": 12001,
+      "kmin": 1e-05,
+      "kmax": 30.0,
+      "camb_self": {
+        "mean_abs": 0.00011819827181925007,
+        "max_abs": 0.0008124354515032239,
+        "signed_min": -0.0008124354515032239,
+        "signed_max": 0.0005727660362504494
+      },
+      "class_self": {
+        "mean_abs": 9.140023501509632e-05,
+        "max_abs": 0.0005445452511139148,
+        "signed_min": -0.0005445452511139148,
+        "signed_max": 1.9354203784516244e-05
+      },
+      "tight_cross": {
+        "mean_abs": 0.0001489072668749153,
+        "max_abs": 0.0008776858104763141,
+        "signed_min": -0.0008776858104763141,
+        "signed_max": 0.0003755483767178269
+      },
+      "cross_stats_scope": "Descriptive full dense grid; not the comparison-grid pass criterion",
+      "sigma8_integrated": {
+        "P_camb_base_Mpc3": 0.489920807157292,
+        "P_camb_tight_Mpc3": 0.48992876790058143,
+        "P_class_base_Mpc3": 0.4899385863748029,
+        "P_class_tight_Mpc3": 0.4899442664916099
+      },
+      "sigma8_truncated_at_10": {
+        "P_camb_base_Mpc3": 0.4899207769698773,
+        "P_camb_tight_Mpc3": 0.4899287377210015,
+        "P_class_base_Mpc3": 0.4899385561948871,
+        "P_class_tight_Mpc3": 0.4899442362985422
+      }
+    },
+    "3": {
+      "n": 12001,
+      "kmin": 1e-05,
+      "kmax": 30.0,
+      "camb_self": {
+        "mean_abs": 0.00011796711313173036,
+        "max_abs": 0.0008121495746521434,
+        "signed_min": -0.0008121495746521434,
+        "signed_max": 0.000572871431474109
+      },
+      "class_self": {
+        "mean_abs": 9.128608272391045e-05,
+        "max_abs": 0.0005428106117529863,
+        "signed_min": -0.0005428106117529863,
+        "signed_max": 1.934433922823331e-05
+      },
+      "tight_cross": {
+        "mean_abs": 0.00014898138039917263,
+        "max_abs": 0.0008780556530350037,
+        "signed_min": -0.0008780556530350037,
+        "signed_max": 0.0003753859414072913
+      },
+      "cross_stats_scope": "Descriptive full dense grid; not the comparison-grid pass criterion",
+      "sigma8_integrated": {
+        "P_camb_base_Mpc3": 0.25489873216341374,
+        "P_camb_tight_Mpc3": 0.2549028714510068,
+        "P_class_base_Mpc3": 0.25490805726265847,
+        "P_class_tight_Mpc3": 0.2549109643547149
+      },
+      "sigma8_truncated_at_10": {
+        "P_camb_base_Mpc3": 0.25489871645714013,
+        "P_camb_tight_Mpc3": 0.25490285574880944,
+        "P_class_base_Mpc3": 0.25490804156027963,
+        "P_class_tight_Mpc3": 0.25491094864550023
+      }
+    }
+  }
+}

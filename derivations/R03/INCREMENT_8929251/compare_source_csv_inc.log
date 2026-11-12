@@ -1,0 +1,15 @@
+max |d_mean| july_replacement_geometry (table4 input): 1.2967404927621828e-13  max |d_sd|: 1.352459810810558e-13
+max |d_median| historical primary: 0.00016949714853708997
+max |at_mean - integrated|: 0.0016370870005459892
+{'calibration': 'old_BAO', 'model': 'LCDM_free_A', 'parameter': 'Omega_m', 'mean': '0.2978140059789725', 'posterior_SD': '0.00854084789115635', 'status': 'conditional rounded-summary posterior'}
+{'calibration': 'old_BAO', 'model': 'LCDM_free_A', 'parameter': 'w', 'mean': '-1.0000000000000004', 'posterior_SD': '0.0', 'status': 'fixed exactly'}
+{'calibration': 'old_BAO', 'model': 'LCDM_free_A', 'parameter': 'A', 'mean': '29.53095249743681', 'posterior_SD': '0.21015852720939818', 'status': 'conditional rounded-summary posterior'}
+{'calibration': 'old_BAO', 'model': 'wCDM_free_A', 'parameter': 'Omega_m', 'mean': '0.2971012640849168', 'posterior_SD': '0.008832379745295042', 'status': 'conditional rounded-summary posterior'}
+{'calibration': 'old_BAO', 'model': 'wCDM_free_A', 'parameter': 'w', 'mean': '-0.9171107176105256', 'posterior_SD': '0.07636815288739407', 'status': 'conditional rounded-summary posterior'}
+{'calibration': 'old_BAO', 'model': 'wCDM_free_A', 'parameter': 'A', 'mean': '30.035861442871532', 'posterior_SD': '0.5078894969273442', 'status': 'conditional rounded-summary posterior'}
+{'calibration': 'replacement_AP_BAO', 'model': 'LCDM_free_A', 'parameter': 'Omega_m', 'mean': '0.30194023839055434', 'posterior_SD': '0.007643823489646367', 'status': 'conditional rounded-summary posterior'}
+{'calibration': 'replacement_AP_BAO', 'model': 'LCDM_free_A', 'parameter': 'w', 'mean': '-1.0000000000000002', 'posterior_SD': '0.0', 'status': 'fixed exactly'}
+{'calibration': 'replacement_AP_BAO', 'model': 'LCDM_free_A', 'parameter': 'A', 'mean': '29.635459200210903', 'posterior_SD': '0.1924057763419399', 'status': 'conditional rounded-summary posterior'}
+{'calibration': 'replacement_AP_BAO', 'model': 'wCDM_free_A', 'parameter': 'Omega_m', 'mean': '0.3025241696109553', 'posterior_SD': '0.008050204359937885', 'status': 'conditional rounded-summary posterior'}
+{'calibration': 'replacement_AP_BAO', 'model': 'wCDM_free_A', 'parameter': 'w', 'mean': '-0.9680754395682675', 'posterior_SD': '0.07161438306650499', 'status': 'conditional rounded-summary posterior'}
+{'calibration': 'replacement_AP_BAO', 'model': 'wCDM_free_A', 'parameter': 'A', 'mean': '29.84750485344425', 'posterior_SD': '0.5042271625581987', 'status': 'conditional rounded-summary posterior'}

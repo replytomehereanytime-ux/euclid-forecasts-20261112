@@ -1,0 +1,27 @@
+beta                       WL=0.001233586737  2nd=0.001233586737  rel=1.76e-16  PASS
+Dkin_CatWISE_1.529_1.122   WL=0.006469592518  2nd=0.006469592518  rel=1.34e-16  PASS
+Dkin_CatWISE_1.755_1.122   WL=0.007061186176  2nd=0.007061186176  rel=1.23e-16  PASS
+Dkin_grid_x1.0_a1.0        WL=0.004934346947  2nd=0.004934346947  rel=1.76e-16  PASS
+Dkin_grid_x0.5_a0.5        WL=0.003392363526  2nd=0.003392363526  rel=1.28e-16  PASS
+Dkin_grid_x2.0_a1.5        WL=0.008635107158  2nd=0.008635107158  rel=2.01e-16  PASS
+CP1_95                     WL=0.001496744895  2nd=0.001496744895  rel=0.00e+00  PASS
+CP2_95                     WL=0.001842739793  2nd=0.001842739793  rel=2.89e-14  PASS
+P1_2.7_1.5                 WL=3.306811153  2nd=3.306811153  rel=0.00e+00  PASS
+P1_2.7_2                   WL=3.818376618  2nd=3.818376618  rel=0.00e+00  PASS
+P1_3.2_1.5                 WL=3.919183588  2nd=3.919183588  rel=0.00e+00  PASS
+P1_3.2_2                   WL=4.5254834  2nd=4.5254834  rel=0.00e+00  PASS
+Xi0_cM1.3                  WL=1.446944606  2nd=1.446944606  rel=0.00e+00  PASS
+cM_from_Xi0_1.4            WL=1.183946343  2nd=1.183946343  rel=0.00e+00  PASS
+n_eq25                     WL=2.536917383  2nd=2.536917383  rel=0.00e+00  PASS
+n_alphaM                   WL=1.759352205  2nd=1.759352205  rel=0.00e+00  PASS
+sigma_dchi2_2.18806        WL=0.9643614466  2nd=0.9643614466  rel=3.45e-16  PASS
+sigma_dchi2_1.77432        WL=0.8206894072  2nd=0.8206894072  rel=8.12e-16  PASS
+AP_ratio_0.51              WL=1.447990462  2nd=1.447990462  rel=0.00e+00  PASS
+dchi2_new                  WL=2.188057155  2nd=2.188057176  rel=9.44e-09  PASS
+dchi2_old                  WL=1.774322267  2nd=1.774322272  rel=2.75e-09  PASS
+w0_new                     WL=-0.767404759  2nd=-0.7673617952  rel=5.60e-05  PASS
+wa_new                     WL=-0.8243737552  2nd=-0.824499384  rel=1.52e-04  PASS
+LCDM_Om_new                WL=0.3242805187  2nd=0.32428048  rel=1.19e-07  PASS
+CPL_DMrd_1.3               WL=27.28909269  2nd=27.28908883  rel=1.42e-07  PASS
+CPL_DHrd_1.3               WL=14.01955644  2nd=14.01956299  rel=4.67e-07  PASS
+ALL PASS

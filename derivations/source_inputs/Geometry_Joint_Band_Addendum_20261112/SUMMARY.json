@@ -1,0 +1,77 @@
+{
+  "status": "PASS_ALL_24_FROZEN_CASES",
+  "cases": 24,
+  "numerical_tolerance": 1e-07,
+  "maximum_absolute_differences": {
+    "producer_joint_mass_change": 1.0880185641326534e-13,
+    "producer_factor_change": 2.686739719592879e-13,
+    "expanded_mass_error": 1.3522516439934407e-13,
+    "fixed_A_stored_mass_error": 1.9626744673928442e-11,
+    "fixed_A_factor_from_one": 8.558620478993362e-11,
+    "independent_joint_mass_difference": 3.2706060082432487e-12,
+    "independent_factor_difference": 1.47967194052967e-11
+  },
+  "source_preservation": {
+    "inputs/desi_dr2_table4.csv": "a9f3fc66443c4268cb16bb15280b4f1d60c6e7f842f8f2a2025a36ed87a7e013",
+    "inputs/frozen_results.json": "e5a1473fceb69f1d92b66055dc2808026ab5c60730bca63e3191088b33336967",
+    "inputs/source_forecast.py": "20463cd96f1a222162e6600a94be0d10a0e33d2b60833273f398df6b4da473a1"
+  },
+  "free_A": [
+    {
+      "prior": "primary",
+      "grid": "primary",
+      "coordinates": 15,
+      "original_joint_mass": 0.8621106735550855,
+      "factor": 1.2305959557779111,
+      "relative_halfwidth_increase_percent": 23.059595577791114,
+      "new_joint_mass": 0.9500000000000006
+    },
+    {
+      "prior": "primary",
+      "grid": "all_frozen",
+      "coordinates": 33,
+      "original_joint_mass": 0.8554195780956184,
+      "factor": 1.2449942196832418,
+      "relative_halfwidth_increase_percent": 24.499421968324175,
+      "new_joint_mass": 0.9500000000000066
+    },
+    {
+      "prior": "broad_support",
+      "grid": "primary",
+      "coordinates": 15,
+      "original_joint_mass": 0.8621106735561993,
+      "factor": 1.2305959557754202,
+      "relative_halfwidth_increase_percent": 23.059595577542026,
+      "new_joint_mass": 0.9499999999999971
+    },
+    {
+      "prior": "broad_support",
+      "grid": "all_frozen",
+      "coordinates": 33,
+      "original_joint_mass": 0.855419578096391,
+      "factor": 1.2449942196814463,
+      "relative_halfwidth_increase_percent": 24.49942196814463,
+      "new_joint_mass": 0.9499999999999967
+    },
+    {
+      "prior": "beta22_shape",
+      "grid": "primary",
+      "coordinates": 15,
+      "original_joint_mass": 0.8621231178635705,
+      "factor": 1.2305679139897125,
+      "relative_halfwidth_increase_percent": 23.056791398971257,
+      "new_joint_mass": 0.9499999999999954
+    },
+    {
+      "prior": "beta22_shape",
+      "grid": "all_frozen",
+      "coordinates": 33,
+      "original_joint_mass": 0.8554240421997715,
+      "factor": 1.2449819200799301,
+      "relative_halfwidth_increase_percent": 24.498192007993012,
+      "new_joint_mass": 0.9500000000000051
+    }
+  ],
+  "fixed_A": "All18 model/prior/grid cases agree with joint0.95 and multiplier1 within reported numerical residuals. Exact monotonicity theorem concerns unrounded exact quantiles.",
+  "scope": "Joint latent posterior mass only; no empirical/frequentist/Euclid coverage."
+}

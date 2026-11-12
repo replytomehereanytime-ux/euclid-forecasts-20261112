@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/ab9f99af7f64/geometry_simultaneous_bands_20261112/joint_bands.py", line 176, in <module>
+    main()
+  File "/workspace/scratch/ab9f99af7f64/geometry_simultaneous_bands_20261112/joint_bands.py", line 158, in main
+    law=Law(model,prior,*res)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/ab9f99af7f64/geometry_simultaneous_bands_20261112/joint_bands.py", line 45, in __init__
+    rr,y,cov=read_data();self.records=rr
+             ^^^^^^^^^^^
+  File "/workspace/scratch/ab9f99af7f64/geometry_simultaneous_bands_20261112/joint_bands.py", line 34, in read_data
+    assert np.array_equal(cov,np.array(SOURCE['stipulated_covariance']))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,10 @@
+camb_tighter OK 
+class_tighter OK 
+A1_camb_mnu006 OK 
+A2_class_matched_massive OK 
+A3_camb_bbn_YHe OK 
+A3b_camb_hyrec FAILED CAMBValueError('Class not found: HyRec')
+A3b_class_hyrec OK 
+A4_class_matter_source_default OK 
+A6_hist_replay_camb OK 
+A6_hist_replay_class OK 

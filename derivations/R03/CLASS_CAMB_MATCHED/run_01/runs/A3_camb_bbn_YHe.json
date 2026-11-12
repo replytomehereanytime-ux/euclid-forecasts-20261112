@@ -1,0 +1,157 @@
+{
+ "engine": "CAMB",
+ "version": "2.0.5",
+ "level": "tight",
+ "accuracy": {
+  "AccuracyBoost": 2,
+  "lAccuracyBoost": 2,
+  "lSampleBoost": 2,
+  "k_per_logint": 80
+ },
+ "cosmo_args": {
+  "H0": 67.5,
+  "ombh2": 0.022,
+  "omch2": 0.12,
+  "omk": 0.0,
+  "mnu": 0.0,
+  "num_massive_neutrinos": 0,
+  "nnu": 3.044,
+  "standard_neutrino_neff": 3.044,
+  "YHe": null,
+  "TCMB": 2.7255
+ },
+ "recomb": "Recfast",
+ "reion": false,
+ "kmax_requested": 30.0,
+ "params_dump": "class: <CAMBparams>\n WantCls = True\n WantTransfer = True\n WantScalars = True\n WantTensors = False\n WantVectors = False\n WantDerivedParameters = True\n Want_cl_2D_array = True\n Want_CMB = True\n Want_CMB_lensing = True\n DoLensing = True\n NonLinear = NonLinear_none\n Transfer: <TransferParams>\n   high_precision = True\n   accurate_massive_neutrinos = False\n   kmax = 30.0\n   k_per_logint = 80\n   PK_num_redshifts = 3\n   PK_redshifts = [3.0, 1.0, 0.0]\n want_zstar = False\n want_zdrag = False\n min_l = 2\n max_l = 2500\n max_l_tensor = 600\n lens_output_margin = 200\n max_eta_k = 6250.0\n max_eta_k_tensor = 1200.0\n ombh2 = 0.022\n omch2 = 0.12\n omk = 0.0\n omnuh2 = 0.0\n H0 = 67.5\n TCMB = 2.7255\n YHe = 0.2454956513539326\n num_nu_massless = 3.044\n num_nu_massive = 0\n nu_mass_eigenstates = 0\n share_delta_neff = False\n nu_mass_degeneracies = []\n nu_mass_fractions = []\n nu_mass_numbers = []\n InitPower: <InitialPowerLaw>\n   tensor_parameterization = tensor_param_rpivot\n   ns = 0.965\n   nrun = 0.0\n   nrunrun = 0.0\n   nt = 0.0\n   ntrun = 0.0\n   r = 0.0\n   pivot_scalar = 0.05\n   pivot_tensor = 0.05\n   As = 2e-09\n   At = 1.0\n Recomb: <Recfast>\n   min_a_evolve_Tm = 0.0011098779505118728\n   RECFAST_fudge = 1.125\n   RECFAST_fudge_He = 0.8472367977\n   RECFAST_Hswitch = True\n   RECFAST_He_rate_correction = True\n   AGauss1 = -0.1395272483\n   AGauss2 = 0.0729891952\n   zGauss1 = 7.2813061282\n   zGauss2 = 6.7667038679\n   wGauss1 = 0.163896641\n   wGauss2 = 0.2785834127\n   Nz = 2046\n   use_rosenbrock = True\n   rosenbrock_handoff_xH = 0.976\n   rosenbrock_tol = 0.0003\n Reion: <TanhReionization>\n   Reionization = False\n   include_heating = False\n   reion_temperature = 10000.0\n   use_optical_depth = False\n   redshift = 10.0\n   optical_depth = 0.0\n   fraction = -1.0\n   include_helium_fullreion = True\n   helium_redshift = 3.5\n   helium_delta_redshift = 0.4\n   helium_redshiftstart = 5.5\n   tau_solve_accuracy_boost = 1.0\n   timestep_boost = 1.0\n   max_redshift = 50.0\n   delta_redshift = 0.5\n DarkEnergy: <DarkEnergyFluid>\n   w = -1.0\n   wa = 0.0\n   cs2 = 1.0\n   use_tabulated_w = False\n NonLinearModel: <Halofit>\n   Min_kh_nonlinear = 0.005\n   halofit_version = mead2020\n   HMCode_A_baryon = 3.13\n   HMCode_eta_baryon = 0.603\n   HMCode_logT_AGN = 7.8\n   HMCode_wiggle_max_fnu = 0.01\n Accuracy: <AccuracyParams>\n   AccuracyBoost = 2.0\n   lSampleBoost = 2.0\n   lAccuracyBoost = 2.0\n   AccuratePolarization = True\n   AccurateBB = False\n   AccurateReionization = True\n   TimeStepBoost = 1.0\n   BackgroundTimeStepBoost = 1.0\n   TimeSwitchBoost = 1.0\n   IntTolBoost = 1.0\n   SourcekAccuracyBoost = 1.0\n   IntkAccuracyBoost = 1.0\n   TransferkBoost = 1.0\n   NonFlatIntAccuracyBoost = 1.0\n   BessIntBoost = 1.0\n   LensingBoost = 1.0\n   NonlinSourceBoost = 1.0\n   BesselBoost = 1.0\n   LimberBoost = 1.0\n   SourceLimberBoost = 1.0\n   KmaxBoost = 1.0\n   neutrino_q_boost = 1.0\n SourceTerms: <SourceTermParams>\n   limber_windows = True\n   limber_phi_lmin = 100\n   counts_density = True\n   counts_redshift = True\n   counts_lensing = False\n   counts_velocity = True\n   counts_radial = False\n   counts_timedelay = True\n   counts_ISW = True\n   counts_potential = True\n   counts_evolve = False\n   line_phot_dipole = False\n   line_phot_quadrupole = False\n   line_basic = True\n   line_distortions = True\n   line_extra = False\n   line_reionization = False\n   use_21cm_mK = True\n z_outputs = []\n scalar_initial_condition = initial_adiabatic\n InitialConditionVector = []\n OutputNormalization = 1\n Alens = 1.0\n MassiveNuMethod = Nu_best\n DoLateRadTruncation = True\n Evolve_baryon_cs = False\n Evolve_delta_xe = False\n Evolve_delta_Ts = False\n Do21cm = False\n transfer_21cm_cl = False\n Log_lvalues = False\n use_cl_spline_template = True\n min_l_logl_sampling = 5000\n SourceWindows = []\n CustomSources: <CustomSources>\n   num_custom_sources = 0\n   c_source_func = None\n   custom_source_ell_scales = []\n ",
+ "Transfer_kmax_effective": 30.0,
+ "Transfer_high_precision": true,
+ "transfer_redshifts_order": [
+  3.0,
+  1.0,
+  0.0
+ ],
+ "native_k_range": [
+  3.525207773691364e-06,
+  30.17243871688843
+ ],
+ "native_nk": 1329,
+ "native_z": [
+  0.0,
+  1.0,
+  3.0
+ ],
+ "YHe_effective": 0.2454956513539326,
+ "omnuh2": 0.0,
+ "num_nu_massless": 3.044,
+ "num_nu_massive": 0,
+ "nu_mass_degeneracies": [],
+ "nu_mass_fractions": [],
+ "nu_mass_eigenstates": 0,
+ "NonLinear": "NonLinear_none",
+ "Reionization": false,
+ "recomb_fields": {
+  "AGauss1": -0.1395272483,
+  "AGauss2": 0.0729891952,
+  "RECFAST_He_rate_correction": true,
+  "RECFAST_Hswitch": true,
+  "RECFAST_fudge": 1.125,
+  "RECFAST_fudge_He": 0.8472367977,
+  "min_a_evolve_Tm": 0.0011098779505118728,
+  "wGauss1": 0.163896641,
+  "wGauss2": 0.2785834127,
+  "zGauss1": 7.2813061282,
+  "zGauss2": 6.7667038679
+ },
+ "sigma8_engine": {
+  "0.0": 0.8059296137698704,
+  "1.0": 0.4899295290392539,
+  "3.0": 0.2549032674292267
+ },
+ "derived": {
+  "age": 13.811531269019062,
+  "zstar": 1090.3742241260493,
+  "rstar": 144.73238245200187,
+  "thetastar": 1.0410175482492792,
+  "DAstar": 13.902972403818177,
+  "zdrag": 1059.0663574577095,
+  "rdrag": 147.52307107513676,
+  "kd": 0.14013243734768227,
+  "thetad": 0.16125141567812,
+  "zeq": 3394.034123395346,
+  "keq": 0.010357633483653532,
+  "thetaeq": 0.8135815821531627,
+  "thetarseq": 0.4498196469892999
+ },
+ "Omega": {
+  "cdm": 0.26337448559670773,
+  "baryon": 0.04828532235939643,
+  "photon": 5.427655040540037e-05,
+  "neutrino": 3.752217580133823e-05,
+  "nu": 0.0,
+  "de": 0.6882483933176891,
+  "K": 0.0,
+  "m": 0.31165980795610415,
+  "r": 9.17987262067386e-05
+ },
+ "DM": {
+  "0.0": 0.0,
+  "0.5": 1950.6260595729882,
+  "1.0": 3402.4798452926548,
+  "1.5": 4485.797130035109,
+  "2.0": 5318.046938797852,
+  "3.0": 6515.578794045766
+ },
+ "Hz": {
+  "0.0": 67.5,
+  "0.5": 89.05306941878399,
+  "1.0": 120.42642512835042,
+  "1.5": 159.18438975942414,
+  "2.0": 203.73932029851855,
+  "3.0": 306.79456608013976
+ },
+ "x_e": {
+  "200.0": 0.00034282301448584494,
+  "400.0": 0.0005302645505530119,
+  "600.0": 0.000980001838673838,
+  "800.0": 0.0036096534913646295,
+  "900.0": 0.012882913290159115,
+  "1000.0": 0.04928930711245759,
+  "1050.0": 0.08816814982037324,
+  "1089.0": 0.13172485462276703,
+  "1100.0": 0.14629855381542076,
+  "1200.0": 0.3243892059752246,
+  "1400.0": 0.8041565302012721,
+  "1600.0": 0.9945332422161817,
+  "2000.0": 1.0374070400546882,
+  "2500.0": 1.0735924805970325,
+  "3000.0": 1.081840480448499,
+  "5000.0": 1.081929551387447
+ },
+ "T_b": {
+  "200.0": 467.25637413323335,
+  "400.0": 1063.5777889451124,
+  "600.0": 1628.3746612747502,
+  "800.0": 2181.3323268806475,
+  "900.0": 2455.243883333712,
+  "1000.0": 2728.126498728917,
+  "1050.0": 2864.4480006909166,
+  "1089.0": 2970.761089526505,
+  "1100.0": 3000.745249094369,
+  "1200.0": 3273.3128322123716,
+  "1400.0": 3818.4211819854127,
+  "1600.0": 4363.522853966808,
+  "2000.0": 5453.724176405937,
+  "2500.0": 6816.475119016704,
+  "3000.0": 8179.225499999828,
+  "5000.0": 13630.225499999724
+ },
+ "early_rho_nu_over_rho_gamma": {
+  "1e-07": 0.6913146749577674,
+  "1e-06": 0.6913146749577674
+ },
+ "runtime_s": 6.860207796096802,
+ "status": "OK",
+ "start_utc": "2026-11-12T10:25:12.876996+00:00",
+ "end_utc": "2026-11-12T10:25:19.744158+00:00"
+}

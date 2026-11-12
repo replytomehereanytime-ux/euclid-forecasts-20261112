@@ -1,0 +1,30 @@
+{
+ "engine": "CLASS",
+ "version": "v3.4.2",
+ "class_dict_passed": {
+  "H0": 67.5,
+  "omega_b": 0.022,
+  "omega_cdm": 0.12,
+  "A_s": 2e-09,
+  "n_s": 0.965,
+  "YHe": 0.245,
+  "output": "mPk",
+  "P_k_max_1/Mpc": 2.0
+ },
+ "sigma8": 0.8059023437254481,
+ "Omega_m": 0.3116598079561042,
+ "Omega_Lambda": 0.6882483931709501,
+ "readback": {
+  "H0": "67.5",
+  "omega_b": "0.022",
+  "omega_cdm": "0.12",
+  "A_s": "2e-09",
+  "n_s": "0.965",
+  "YHe": "0.245",
+  "output": "mPk",
+  "P_k_max_1/Mpc": "2.0"
+ },
+ "status": "OK",
+ "start_utc": "2026-11-12T10:25:25.571042+00:00",
+ "end_utc": "2026-11-12T10:25:25.665272+00:00"
+}

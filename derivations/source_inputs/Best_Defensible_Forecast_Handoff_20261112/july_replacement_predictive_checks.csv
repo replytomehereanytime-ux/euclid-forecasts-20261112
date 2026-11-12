@@ -1,0 +1,36 @@
+model,target,old_NLL,replacement_NLL,replacement_minus_old_if_same_target,comparison_scope
+LCDM_free_A,BGS,-1.3341148403696996,-1.492174227058987,-0.15805938668928743,same target; descriptive overlapping-fold comparison
+LCDM_free_A,LRG1,1.499970891196741,1.1756145890836613,-0.32435630211307975,same target; descriptive overlapping-fold comparison
+LCDM_free_A,LRG2,1.3003746971714363,1.5263734676057936,0.22599877043435734,same target; descriptive overlapping-fold comparison
+LCDM_free_A,LRG3_ELG1,-1.0609615802182124,-0.92947216430104,0.13148941591717245,same target; descriptive overlapping-fold comparison
+LCDM_free_A,ELG2,-0.5667198539772129,-0.5009683260973818,0.06575152787983107,same target; descriptive overlapping-fold comparison
+LCDM_free_A,QSO,1.1300048584748854,1.1316157970259564,0.0016109385510709728,same target; descriptive overlapping-fold comparison
+LCDM_free_A,Lya,-0.6999686541995063,-0.18757722884495287,,different target and covariance; do not call delta improvement
+wCDM_free_A,BGS,-1.3459260493112906,-1.3431246931043437,0.002801356206946881,same target; descriptive overlapping-fold comparison
+wCDM_free_A,LRG1,1.07464510144011,1.1220075825002187,0.04736248106010876,same target; descriptive overlapping-fold comparison
+wCDM_free_A,LRG2,0.9143906028177495,1.4959895971185508,0.5815989943008013,same target; descriptive overlapping-fold comparison
+wCDM_free_A,LRG3_ELG1,-0.1050831275245745,-0.45662898200881763,-0.35154585448424314,same target; descriptive overlapping-fold comparison
+wCDM_free_A,ELG2,-0.46584740884500686,-0.41419212779450465,0.05165528105050221,same target; descriptive overlapping-fold comparison
+wCDM_free_A,QSO,1.1697378717553368,1.1556297602451453,-0.014108111510191534,same target; descriptive overlapping-fold comparison
+wCDM_free_A,Lya,1.1566726048774987,2.2481856901173076,,different target and covariance; do not call delta improvement
+phi7_fixed_A,BGS,-0.15376757060520108,-0.09104088732913906,0.06272668327606201,same target; descriptive overlapping-fold comparison
+phi7_fixed_A,LRG1,3.038364295635639,3.139768750914506,0.10140445527886666,same target; descriptive overlapping-fold comparison
+phi7_fixed_A,LRG2,0.3945303384117742,0.24848316097723866,-0.14604717743453555,same target; descriptive overlapping-fold comparison
+phi7_fixed_A,LRG3_ELG1,-1.258536450667014,-1.0580273756861727,0.20050907498084136,same target; descriptive overlapping-fold comparison
+phi7_fixed_A,ELG2,-0.8061798393521087,-0.7921991956705694,0.013980643681539284,same target; descriptive overlapping-fold comparison
+phi7_fixed_A,QSO,1.1718908963669226,1.2160142053481893,0.04412330898126671,same target; descriptive overlapping-fold comparison
+phi7_fixed_A,Lya,-0.11413519467850985,2.501442698720476,,different target and covariance; do not call delta improvement
+29_fixed_A,BGS,-0.0003613729633256124,0.06871621552091911,0.06907758848424472,same target; descriptive overlapping-fold comparison
+29_fixed_A,LRG1,3.209578377283683,3.321686822293356,0.11210844500967321,same target; descriptive overlapping-fold comparison
+29_fixed_A,LRG2,0.37459600530532344,0.2291264227172951,-0.14546958258802833,same target; descriptive overlapping-fold comparison
+29_fixed_A,LRG3_ELG1,-1.2279870380152516,-1.0050004024172918,0.22298663559795973,same target; descriptive overlapping-fold comparison
+29_fixed_A,ELG2,-0.8112148502776839,-0.797629113937746,0.01358573633993787,same target; descriptive overlapping-fold comparison
+29_fixed_A,QSO,1.177345367174445,1.2234075491814334,0.04606218200698842,same target; descriptive overlapping-fold comparison
+29_fixed_A,Lya,0.019920312649172045,2.826827755681168,,different target and covariance; do not call delta improvement
+843over29_fixed_A,BGS,-0.29985842368851556,-0.24318747645177807,0.05667094723673749,same target; descriptive overlapping-fold comparison
+843over29_fixed_A,LRG1,2.872811562596505,2.9640411707304475,0.09122960813394254,same target; descriptive overlapping-fold comparison
+843over29_fixed_A,LRG2,0.418583646341514,0.27261750187081346,-0.14596614447070055,same target; descriptive overlapping-fold comparison
+843over29_fixed_A,LRG3_ELG1,-1.2841501358833374,-1.1049432200303477,0.17920691585298965,same target; descriptive overlapping-fold comparison
+843over29_fixed_A,ELG2,-0.7999174492215162,-0.7856652309572847,0.014252218264231509,same target; descriptive overlapping-fold comparison
+843over29_fixed_A,QSO,1.1667101120377825,1.2088611310472908,0.04215101900950824,same target; descriptive overlapping-fold comparison
+843over29_fixed_A,Lya,-0.23800039566088782,2.1923445998294406,,different target and covariance; do not call delta improvement

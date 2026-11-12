@@ -1,0 +1,6 @@
+{
+ "status": "FAILED",
+ "error": "CAMBValueError('Class not found: HyRec')",
+ "start_utc": "2026-11-12T10:25:19.744466+00:00",
+ "end_utc": "2026-11-12T10:25:19.744548+00:00"
+}

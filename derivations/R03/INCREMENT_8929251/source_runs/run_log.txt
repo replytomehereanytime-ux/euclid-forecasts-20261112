@@ -1,0 +1,13 @@
+== independent_geometry_check.py
+cmd: cd /workspace/r03-out/euclid_forecast_bot/R03/INCREMENT_8929251/source_runs && /workspace/rs3env/bin/python independent_geometry_check.py   (copies of the author's script and input; originals untouched)
+env: Python 3.13.5, scipy 1.17.1, sympy 1.14.0 (/workspace/rs3env, pre-existing)
+script sha256: 4df35225cb8767121608baab44b349e7d5bc3d3075fd1ff18589835f42655027
+start UTC: 2026-11-12T10:04:17.054Z
+{'scope': 'Direct adaptive quadrature checks of all 55 deterministic prototype rows; not a likelihood or source audit', 'scalar_comparisons': 220, 'max_absolute_error': 2.220446049250313e-16, 'pass_tolerance_1e-10': True, 'input_sha256': '26ebb37c78af417beadf6267f7325db4feb93b3ad9515551e413e4fffe7e75f0'}
+exit: 0
+end UTC: 2026-11-12T10:04:17.424Z
+== output hashes
+66a46abcc8b6d8992c900922170c26964fb3c16b29c68844af444159cc478c57  NUMERICAL_CHECK.json
+== original (the author) output hashes for comparison
+66a46abcc8b6d8992c900922170c26964fb3c16b29c68844af444159cc478c57  source_inputs/Best_Defensible_Forecast_Handoff_20261112/NUMERICAL_CHECK.json
+NUMERICAL_CHECK identical

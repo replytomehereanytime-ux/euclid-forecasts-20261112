@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "acceptance_absolute_probability_and_factor": 1e-07,
+  "cases": 24,
+  "all12_models_priors_retained": true,
+  "new_measurements_or_outcomes_used": false,
+  "producer_imports": false,
+  "independent_refinement": {
+    "max_abs_probability_difference": 2.1562862606572253e-11,
+    "max_abs_factor_difference": 9.421896596251145e-11
+  },
+  "comparison_with_producer_higher": {
+    "max_abs_probability_difference": 3.2706060082432487e-12,
+    "max_abs_factor_difference": 1.47967194052967e-11
+  },
+  "producer_refinement": {
+    "max_abs_probability_difference": 1.0880185641326534e-13,
+    "max_abs_factor_difference": 2.686739719592879e-13
+  },
+  "checks": [
+    "All 24 case identities and 576 exported coordinate band rows verified.",
+    "All original bounds and medians match frozen JSON exactly.",
+    "Every expanded bound equals the declared common multiplier transformation.",
+    "No measurement, frequentist or Euclid-coverage conclusion is supported or made.",
+    "Free-A joint claims are restricted to each finite grid.",
+    "Floating-point agreement is not a rigorous interval-arithmetic error enclosure."
+  ],
+  "distance_ODE_crosschecks": [
+    {
+      "degree": 80,
+      "ode_rtol": 2e-13,
+      "ode_atol": 2e-14,
+      "distance_interpolation_validation_max_abs": 1.3453682612407647e-12
+    },
+    {
+      "degree": 128,
+      "ode_rtol": 5e-14,
+      "ode_atol": 5e-15,
+      "distance_interpolation_validation_max_abs": 5.548894677076532e-13
+    }
+  ],
+  "fixed_A_stored_max_abs_probability_minus_095": 2.221633987886662e-11,
+  "fixed_A_stored_max_abs_factor_minus_1": 9.721823346353631e-11,
+  "expanded_max_abs_probability_minus_095": 1.6442402994698568e-13,
+  "exported_coordinate_band_rows_verified": 576,
+  "reviewed_file_sha256": {
+    "joint_bands.py": "0d1e913cfdc8d9e4e5e43fe1434a2a410063e129928627209d98c8672ebbae5c",
+    "RESULT_higher.json": "1d2475fd5c975dbd91aff1b571fc09b462796df8ac76fb881ab275af92877972",
+    "RESULT_lower.json": "dbda8f94ec7fd0d9224714c7f793ba268acb8a33b94743718cadd12eb4ac2586",
+    "independent_review/audit.py": "324cb2d8cd466cd808091eee6cd981490cb1ac35d2c568cb777f54b90f9313c0",
+    "independent_review/audit_results_degree80.json": "e896009b8bca6474d17273c07ef930d7dd17f4932f97e630afc89c80c61ea517",
+    "independent_review/audit_results_degree128.json": "958716427459e7d88e3360cf506645a6a4a82abe42eca29f2027767a3f179bfb"
+  }
+}

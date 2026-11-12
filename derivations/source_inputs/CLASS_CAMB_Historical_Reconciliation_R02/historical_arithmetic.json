@@ -1,0 +1,16 @@
+{
+  "status": "HISTORICAL_TEXT_ARITHMETIC_ONLY_NO_SOLVER_RUN",
+  "source_rows": 20,
+  "Omega_b_plus_cdm": 0.3116598079561042,
+  "buggy_Omega_b_plus_cdm_if_divided_by_h2_twice": 0.6840270133467306,
+  "recomputed_mean_from_rounded_P": 0.023012317099153152,
+  "recomputed_max_from_rounded_P": 0.029906542056074768,
+  "mean_of_printed_relative_column": 0.022995000000000005,
+  "sigma8_fractional_suppression_source_report": 0.01453179423865103,
+  "sigma8_squared_ratio_source_report": 0.9711475845664924,
+  "equivalent_variance_suppression_source_report": 0.028852415433507583,
+  "h": 0.675,
+  "radius_8h_inverse_Mpc": 11.851851851851851,
+  "source_camb_sampling_max_physical_k": 1.0125000000000002,
+  "all_rows_camb_below_class": true
+}

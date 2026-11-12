@@ -1,0 +1,8 @@
+# Wolfram MCP WolframLanguageEvaluator (Wolfram Language 15.0.1 remote kernel), run 2026-11-12 ~03:39 ET
+# Code: quickcalcs_R04.wl. Raw Out[1] (NumberForm wrappers kept as returned). Warnings returned: NIntegrate::precw (machine-precision integrand vs WorkingPrecision 20; harmless, results match box Python to 1e-15).
+{{"beta" -> 0.0012335867368618058, "CatWISE_x1.529_a1.122" -> 0.006469592517767741, "CatWISE_x1.755_a1.122" -> 0.007061186176338031},
+ grid {x, alpha, D_kin}: see WOLFRAM_RESULTS_R04.md table (x=0.5..2.0, alpha=0.5..1.5),
+ {CP one-sided 95% upper 0/2000 = 0.0014967448951882512, CP two-sided 95% upper = 0.0018427397934059897, one-sided 99% upper = 0.0022999361774467264, Beta-quantile check = 0.0014967448951893},
+ {{2.7, 1.5, 3.3068111527572905}, {2.7, 2., 3.818376618407357}}, {{3.2, 1.5, 3.919183588453085}, {3.2, 2., 4.525483399593905}}, {{3.1, 1.5, 3.796709101313926}, {3.1, 2., 4.384062043356595}},
+ AP {z, F_AP_flatLCDM(Om=0.315191868), ratio to Rebound}: {{0.295, 0.3202810334812333, 1.185067317442328}, {0.51, 0.5936645055313002, 1.4479904620853583}, {0.706, 0.8775548887320784, 1.9954270372708325}},
+ {"cM=1.3 wide" -> 1.4469446061093594, "cM 90% lo -1.5" -> 0.6529248325103318, "cM 90% hi 4.7" -> 3.8027287621858097, "cM 68% lo -0.5" -> 0.8675364456381933, "cM 68% hi 3.5" -> 2.7038705687917077, "cM=0.4 narrow" -> 1.1203915300552165, "cM implied by Xi0=1.4" -> 1.1839463430400998, "cM implied by Xi0 1.0..2.4" -> {0., 3.0805157074607106}, "n_eq25" -> 2.5369173832659473, "n_alphaM" -> 1.7593522052949344}}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS_HELPER_ONLY_NO_BOLTZMANN_SOLVER",
+  "analytic_power_A_over_k2_sigma": 0.1474940381299307,
+  "computed_sigma": 0.1474940341589257,
+  "relative_error": -2.692315603791684e-08,
+  "passed_checks": 7,
+  "checks": [
+    "analytic_integral",
+    "h_unit_invariance",
+    "amplitude_scaling",
+    "small_x_window",
+    "reject_reversed_k",
+    "reject_negative_power",
+    "reject_nan"
+  ]
+}

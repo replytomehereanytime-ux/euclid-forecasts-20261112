@@ -1,0 +1,86 @@
+{
+  "created_utc": "2026-11-12T08:18:48.918962+00:00",
+  "scope": "New joint-coverage postprocessing of unchanged old-DESI posterior. Source values are already known; no new outcomes, fits or primary changes.",
+  "primary_grid": [
+    0.9,
+    1.0,
+    1.2,
+    1.5,
+    1.8
+  ],
+  "context_grid": [
+    0.295,
+    0.51,
+    0.706,
+    0.9,
+    0.934,
+    1.0,
+    1.2,
+    1.321,
+    1.5,
+    1.8,
+    2.33
+  ],
+  "observables": [
+    "DM_over_rd",
+    "DH_over_rd",
+    "F_AP"
+  ],
+  "priors": [
+    "primary",
+    "broad_support",
+    "beta22_shape"
+  ],
+  "models": [
+    "free_A",
+    "phi7_fixed_A",
+    "29_fixed_A",
+    "843over29_fixed_A"
+  ],
+  "cases": 24,
+  "band_family": "Each coordinate lower/upper = stored median + t*(stored original 2.5/97.5 percentile - stored median). Same t for every coordinate in each selected finite grid. Solve posterior event probability=0.95, not a claim of unique/optimal envelope.",
+  "outputs": [
+    "Joint posterior mass of unchanged stored pointwise95% bands.",
+    "Common expansion factor and expanded intervals for95% joint posterior mass.",
+    "All12 prior/model combinations, each for15-coordinate primary and33-coordinate full frozen grids.",
+    "Fixed-A monotonicity proof and numerical stored-quantile checks."
+  ],
+  "numerics": {
+    "distance_orders": [
+      96,
+      192
+    ],
+    "coverage_tolerances": [
+      2e-08,
+      2e-10
+    ],
+    "switch_scan_sizes": [
+      129,
+      257
+    ],
+    "acceptance_absolute_probability_and_factor": 1e-07,
+    "method": "Own compressed Gaussian likelihood from retained CSV, analytic conditional truncated-Gaussian A integration, adaptive Omega quadrature with AP-support restriction and envelope/feasibility split points. Fixed-A event reduced to intersection of monotone Omega intervals."
+  },
+  "fixed_A_theorem": "For fixed A>0, DM,DH strictly decrease and AP strictly increases in Omega for all z>0. Exact equal-tail95% bands therefore have the same central95%Omega preimage; simultaneous coverage holds for finite grids and the complete positive-redshift curve within this background. Stored finite precision verified separately.",
+  "exclusions": [
+    "No frequentist coverage or future measurement likelihood.",
+    "No Foundation population, covariance, calibration or outcome.",
+    "No continuous-z simultaneous claim for free-A finite-grid construction.",
+    "No model ranking changes or new public priority seal.",
+    "No publishing, spending, grants, contact or installation."
+  ],
+  "source_files": {
+    "inputs/desi_dr2_table4.csv": {
+      "bytes": 423,
+      "sha256": "a9f3fc66443c4268cb16bb15280b4f1d60c6e7f842f8f2a2025a36ed87a7e013"
+    },
+    "inputs/frozen_results.json": {
+      "bytes": 1474875,
+      "sha256": "e5a1473fceb69f1d92b66055dc2808026ab5c60730bca63e3191088b33336967"
+    },
+    "inputs/source_forecast.py": {
+      "bytes": 14098,
+      "sha256": "20463cd96f1a222162e6600a94be0d10a0e33d2b60833273f398df6b4da473a1"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+ "B_BAOonly_noRad_Afree_REPLACEMENT": {
+  "w_median_68": [
+   -0.9673964588226216,
+   -1.041336829230585,
+   -0.8960975835334148
+  ],
+  "Om_median_68": [
+   0.30212308538694915,
+   0.294113453473848,
+   0.3103048994219848
+  ],
+  "bestfit_Om_w": [
+   0.30297048094694423,
+   -0.9656219557968112
+  ],
+  "bestfit_A": 29.856017265391316,
+  "chi2_min": 12.468275166553212,
+  "grid": "401x401, A marginalised analytically over U(20,40)"
+ },
+ "B_BAOonly_noRad_Afree_PRIMARY": {
+  "w_median_68": [
+   -0.9140545875750071,
+   -0.9932248614045055,
+   -0.8382536066966259
+  ],
+  "Om_median_68": [
+   0.2966266900565458,
+   0.2878533412300608,
+   0.30560403407909786
+  ],
+  "bestfit_Om_w": [
+   0.2976934823299864,
+   -0.9118994494153563
+  ],
+  "bestfit_A": 30.054105751989525,
+  "chi2_min": 9.041046606391319,
+  "grid": "401x401, A marginalised analytically over U(20,40)"
+ },
+ "B_BAOonly_R02param_REPLACEMENT": {
+  "best_Om_h_w_ob": [
+   0.3025720298460361,
+   0.6106341161098515,
+   -0.9646395184904649,
+   0.015000000000130504
+  ],
+  "chi2_min": 12.45127936051902,
+  "note": "h and omega_b are degenerate with A in BAO-only; only A=c/(H0 rd) is constrained"
+ },
+ "B_BAOonly_R02param_PRIMARY": {
+  "best_Om_h_w_ob": [
+   0.29726371535863666,
+   0.5969353230323747,
+   -0.9109933946592214,
+   0.015000000000144058
+  ],
+  "chi2_min": 9.030039534795012,
+  "note": "h and omega_b are degenerate with A in BAO-only; only A=c/(H0 rd) is constrained"
+ },
+ "B_BAO+CMB_R02setup_REPLACEMENT": {
+  "best_Om_h_w_ob": [
+   0.3162078949316318,
+   0.7092904676680911,
+   -1.0487385907504243,
+   0.0222216577380958
+  ],
+  "chi2_min": 27.944020715031836
+ },
+ "B_BAO+CMB_R02setup_PRIMARY": {
+  "best_Om_h_w_ob": [
+   0.3167447633600009,
+   0.7083452611189675,
+   -1.0433206765626364,
+   0.022229767597827875
+  ],
+  "chi2_min": 25.28349949166011
+ },
+ "B_BAOonly_Rad_on_h0.68_REPLACEMENT": {
+  "bestfit_Om_w": [
+   0.30264844041406036,
+   -0.9648576569749745
+  ],
+  "chi2_min": 12.454565452819224
+ }
+}

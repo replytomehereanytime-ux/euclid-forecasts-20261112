@@ -1,0 +1,7 @@
+{
+  "scope": "Direct adaptive quadrature checks of all 55 deterministic prototype rows; not a likelihood or source audit",
+  "scalar_comparisons": 220,
+  "max_absolute_error": 2.220446049250313e-16,
+  "pass_tolerance_1e-10": true,
+  "input_sha256": "26ebb37c78af417beadf6267f7325db4feb93b3ad9515551e413e4fffe7e75f0"
+}

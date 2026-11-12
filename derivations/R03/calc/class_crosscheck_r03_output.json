@@ -1,0 +1,195 @@
+{
+ "classy": "v3.4.2",
+ "cases": {
+  "LCDM_REPL_fullrs": {
+   "derived": {
+    "rs_d": 146.87851003646773,
+    "z_d": 1060.181302452118,
+    "rs_rec": 144.35620687773167,
+    "z_rec": 1088.652991985177,
+    "ra_rec": 13828.619036124477
+   },
+   "z": {
+    "0.9": {
+     "DM_rel": 1.3953561106561096e-07,
+     "DH_rel": 3.1232015951232484e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008605819523224145,
+     "DHrd_formula_vs_CLASS_rsd": -0.00086040931649356
+    },
+    "1.2": {
+     "DM_rel": 1.809253751261508e-07,
+     "DH_rel": 4.115935328119491e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008605405981834124,
+     "DHrd_formula_vs_CLASS_rsd": -0.0008603101285667991
+    },
+    "1.3": {
+     "DM_rel": 1.9392272165852376e-07,
+     "DH_rel": 4.432080427108076e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008605276120239314,
+     "DHrd_formula_vs_CLASS_rsd": -0.0008602785412681335
+    },
+    "1.5": {
+     "DM_rel": 2.187554077881515e-07,
+     "DH_rel": 5.044647459762075e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008605028007120374,
+     "DHrd_formula_vs_CLASS_rsd": -0.0008602173372898037
+    },
+    "1.8": {
+     "DM_rel": 2.5326858743568437e-07,
+     "DH_rel": 5.921735437564024e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008604683172386274,
+     "DHrd_formula_vs_CLASS_rsd": -0.0008601297039849687
+    }
+   },
+   "rd_formula": 147.00504041593277,
+   "rd_formula_vs_CLASS_rs_d": 0.0008614628473124775,
+   "rs_star_R03_at_CLASS_zrec": 144.4109801316035,
+   "rs_star_R03_vs_CLASS_rs_rec": 0.0003794312351130813,
+   "rs_star_trunc_vs_CLASS_rs_rec": -0.017985495421405262
+  },
+  "wCDM_REPL_fullrs": {
+   "derived": {
+    "rs_d": 146.78870411257202,
+    "z_d": 1060.1400865136802,
+    "rs_rec": 144.25858056812385,
+    "z_rec": 1088.7264391656392,
+    "ra_rec": 13819.795779967199
+   },
+   "z": {
+    "0.9": {
+     "DM_rel": 1.4105207313264145e-07,
+     "DH_rel": 3.15044107246365e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008649442560679788,
+     "DHrd_formula_vs_CLASS_rsd": -0.0008647704145516855
+    },
+    "1.2": {
+     "DM_rel": 1.8278708191488136e-07,
+     "DH_rel": 4.1449605125976063e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008649025571634272,
+     "DHrd_formula_vs_CLASS_rsd": -0.0008646710486421849
+    },
+    "1.3": {
+     "DM_rel": 1.9587397726006373e-07,
+     "DH_rel": 4.4607656812800656e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008648894815895813,
+     "DHrd_formula_vs_CLASS_rsd": -0.0008646394954451297
+    },
+    "1.5": {
+     "DM_rel": 2.2084089845719745e-07,
+     "DH_rel": 5.071685156288197e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008648645362666629,
+     "DHrd_formula_vs_CLASS_rsd": -0.0008645784563474646
+    },
+    "1.8": {
+     "DM_rel": 2.5545909942970013e-07,
+     "DH_rel": 5.944737511143217e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008648299480134014,
+     "DHrd_formula_vs_CLASS_rsd": -0.000864491226638453
+    }
+   },
+   "rd_formula": 146.9157987937153,
+   "rd_formula_vs_CLASS_rs_d": 0.0008658342064646884,
+   "rs_star_R03_at_CLASS_zrec": 144.3132536621407,
+   "rs_star_R03_vs_CLASS_rs_rec": 0.00037899370561911283,
+   "rs_star_trunc_vs_CLASS_rs_rec": -0.017997924420464217
+  },
+  "CPL_PRIM_fullrs_best": {
+   "derived": {
+    "rs_d": 146.48579380773873,
+    "z_d": 1060.020249059474,
+    "rs_rec": 143.9321830741569,
+    "z_rec": 1088.96214788881,
+    "ra_rec": 13790.527625937622
+   },
+   "z": {
+    "0.9": {
+     "DM_rel": 2.7230833019586953e-06,
+     "DH_rel": 1.6913170488574991e-06,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008855757172167023,
+     "DHrd_formula_vs_CLASS_rsd": -0.0008866065669554946
+    },
+    "1.2": {
+     "DM_rel": 2.488503009434595e-06,
+     "DH_rel": 1.2981980757054146e-06,
+     "DMrd_formula_vs_CLASS_rsd": -0.000885810089132244,
+     "DHrd_formula_vs_CLASS_rsd": -0.0008869993367225382
+    },
+    "1.3": {
+     "DM_rel": 2.422180147565456e-06,
+     "DH_rel": 1.2064640610986999e-06,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008858763530797953,
+     "DHrd_formula_vs_CLASS_rsd": -0.0008870909892502166
+    },
+    "1.5": {
+     "DM_rel": 2.306123581652386e-06,
+     "DH_rel": 1.0708258699754225e-06,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008859923065531738,
+     "DHrd_formula_vs_CLASS_rsd": -0.0008872265069542751
+    },
+    "1.8": {
+     "DM_rel": 2.1680481243624428e-06,
+     "DH_rel": 9.582112214800986e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0008861302593584641,
+     "DHrd_formula_vs_CLASS_rsd": -0.000887339021567457
+    }
+   },
+   "rd_formula": 146.61603229871622,
+   "rd_formula_vs_CLASS_rs_d": 0.0008890861536268169,
+   "rs_star_R03_at_CLASS_zrec": 143.9865241860708,
+   "rs_star_R03_vs_CLASS_rs_rec": 0.00037754663865463556,
+   "rs_star_trunc_vs_CLASS_rs_rec": -0.018039580074670547
+  },
+  "LCDM_PRIM_R02_old_best": {
+   "derived": {
+    "rs_d": 143.20288161785345,
+    "z_d": 1060.8458656579267,
+    "rs_rec": 140.718478283559,
+    "z_rec": 1089.9950908809426,
+    "ra_rec": 13229.70355148191
+   },
+   "z": {
+    "0.9": {
+     "DM_rel": 1.296677922812961e-07,
+     "DH_rel": 2.885133181251831e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.001497594629395027,
+     "DHrd_formula_vs_CLASS_rsd": -0.0014974360217759886
+    },
+    "1.2": {
+     "DM_rel": 1.6717160566948053e-07,
+     "DH_rel": 3.776994164095271e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0014975571817519295,
+     "DHrd_formula_vs_CLASS_rsd": -0.0014973469692538544
+    },
+    "1.3": {
+     "DM_rel": 1.7890823444943749e-07,
+     "DH_rel": 4.060281122431064e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0014975454627013107,
+     "DHrd_formula_vs_CLASS_rsd": -0.001497318682986415
+    },
+    "1.5": {
+     "DM_rel": 2.0125496758005568e-07,
+     "DH_rel": 4.608753330082038e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.0014975231494376295,
+     "DHrd_formula_vs_CLASS_rsd": -0.0014972639179117175
+    },
+    "1.8": {
+     "DM_rel": 2.3221937062167797e-07,
+     "DH_rel": 5.393885640359031e-07,
+     "DMrd_formula_vs_CLASS_rsd": -0.001497492231410491,
+     "DHrd_formula_vs_CLASS_rsd": -0.0014971855222717378
+    }
+   },
+   "rd_formula": 143.41768173658394,
+   "rd_formula_vs_CLASS_rs_d": 0.0014999706451697126,
+   "rs_star_R03_at_CLASS_zrec": 140.76980720590677,
+   "rs_star_R03_vs_CLASS_rs_rec": 0.00036476319935996315,
+   "rs_star_trunc_vs_CLASS_rs_rec": -0.01845841869843079
+  }
+ },
+ "CPL_PRIMARY_chain_60pts_maxabs_rel": {
+  "DM": 0.0004856563571198347,
+  "DH": 0.00024032899843806632,
+  "rd": 0.0009637697766069486,
+  "DMrd": 0.0009228768961968559
+ }
+}

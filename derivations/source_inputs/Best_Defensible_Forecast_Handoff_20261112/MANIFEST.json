@@ -1,0 +1,54 @@
+{
+  "BEST_FORECAST_HANDOFF.md": {
+    "bytes": 19222,
+    "sha256": "cdad75cb7e890b8f67ced1cb774045592badfb907562cb23ff19a4f02cc11cdd"
+  },
+  "independent_geometry_check.py": {
+    "bytes": 1046,
+    "sha256": "4df35225cb8767121608baab44b349e7d5bc3d3075fd1ff18589835f42655027"
+  },
+  "NUMERICAL_CHECK.json": {
+    "bytes": 317,
+    "sha256": "66a46abcc8b6d8992c900922170c26964fb3c16b29c68844af444159cc478c57"
+  },
+  "clock_kink_check.py": {
+    "bytes": 1006,
+    "sha256": "d7cc30e1d04cfa1e4f1ed2f337baa1073b392cfe3cd374825f50c565bf76e819"
+  },
+  "CLOCK_KINK_CHECK.json": {
+    "bytes": 402,
+    "sha256": "c9531d59389920e283fdf292ada1455b7012af61f68704c559f06e8357b01f5b"
+  },
+  "july_joint_geometry.csv": {
+    "bytes": 54183,
+    "sha256": "44bda24ffba6d51091424580209157024cd299b420ae464f1477f2dbcafdbca7"
+  },
+  "july_joint_parameters.csv": {
+    "bytes": 3164,
+    "sha256": "215c9afb5eb78277bf0e006a191aeff556f90b0ec0064b8885eea6e4e7b37759"
+  },
+  "july_joint_predictive_checks.csv": {
+    "bytes": 5892,
+    "sha256": "429281d0204f8491207da67af60daf41cc9a32570ab6b2fcf9f1cf0c876fdf68"
+  },
+  "july_replacement_geometry.csv": {
+    "bytes": 35750,
+    "sha256": "2b4bda4b197ff382ee8f601e29cf33c33c19edd6362f51647833c1c767649c6d"
+  },
+  "july_replacement_parameters.csv": {
+    "bytes": 2744,
+    "sha256": "7a3a0e723dad5b0295bccbbc6e71cbb3f2dcd01c38f7c73303497ad3315f7438"
+  },
+  "july_replacement_predictive_checks.csv": {
+    "bytes": 4661,
+    "sha256": "f6cbbb3e4c22dc200bc8559cf4ab99fc9008dccc85bdc607ad2d42165221ac1d"
+  },
+  "geometry_forecasts.csv": {
+    "bytes": 67798,
+    "sha256": "f6b3f52c8c26c92f86dbcf35065ea7ac47d1430a449a4d98846a8eb66b759615"
+  },
+  "prototype_geometry.csv": {
+    "bytes": 7533,
+    "sha256": "26ebb37c78af417beadf6267f7325db4feb93b3ad9515551e413e4fffe7e75f0"
+  }
+}

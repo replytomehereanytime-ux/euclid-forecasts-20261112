@@ -1,0 +1,41 @@
+{
+  "completed_utc": "2026-11-12T08:32:59.488665+00:00",
+  "status": "PASS_FRESH_DIRECTORY_SCIENCE_REPLAY",
+  "replay_directory": "/workspace/scratch/ab9f99af7f64/geometry_joint_replay_v_84x2nu",
+  "checks": [
+    {
+      "file": "RESULT_lower.json",
+      "all_other_fields_exactly_equal": true,
+      "excluded_fields": [
+        "created_utc",
+        "completed_utc"
+      ]
+    },
+    {
+      "file": "RESULT_higher.json",
+      "all_other_fields_exactly_equal": true,
+      "excluded_fields": [
+        "created_utc",
+        "completed_utc"
+      ]
+    },
+    {
+      "file": "independent_review/audit_results_degree128.json",
+      "all_other_fields_exactly_equal": true,
+      "excluded_fields": [
+        "elapsed_seconds"
+      ]
+    },
+    {
+      "file": "SUMMARY.json",
+      "all_other_fields_exactly_equal": true,
+      "excluded_fields": []
+    },
+    {
+      "file": "JOINT_BANDS.csv",
+      "byte_identical": true
+    }
+  ],
+  "scope": "Full producer lower/higher and independent tighter audit rerun without original absolute source paths. Timestamps and independent elapsed time excluded exactly as listed. No approximate comparisons used for these equalities.",
+  "joint_csv_sha256": "da66455e1eddd609bdb47da2d38c9c1e449175820fffb565c28ade4d1401aa2f"
+}

@@ -1,0 +1,368 @@
+{
+  "label": "R02-G: exact Gaussian log-intensity reference, not a Poisson-count forecast",
+  "protocol_sha256": "3dff031adf5820e6cdae3b3768302c0697e7624607701568443b398266593401",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "science_cells": 192,
+  "calibration_cells": 32,
+  "regions": "fixed joint Gaussian reference; known covariance, no oracle interval calibration",
+  "rows": [
+    {
+      "stratum": {
+        "d": [
+          0,
+          0,
+          0
+        ],
+        "cal_sd": 0.01,
+        "sky_sd": 0
+      },
+      "joint_coverage": 0.95,
+      "coverage_mc_se": 0.004873397172404485,
+      "normalized_bias": [
+        0.01538743392818249,
+        0.0013579537100793272,
+        0.015109208307177723
+      ],
+      "coordinate_sd": [
+        0.008620288451352548,
+        0.0062848458812503364,
+        0.00472153224152478
+      ],
+      "covariance_relative_error": 0.028036454604337582,
+      "profile_fisher_eigenvalues": [
+        12368.065549832469,
+        25325.094864745766,
+        63445.27782838643
+      ],
+      "profile_condition": 5.129765651124465,
+      "biased_calibration_mean_error": [
+        -0.029867355881012938,
+        8.534529781720673e-06,
+        7.133861416625514e-05
+      ],
+      "biased_calibration_joint_coverage": 0.06
+    },
+    {
+      "stratum": {
+        "d": [
+          0.02,
+          -0.015,
+          0.01
+        ],
+        "cal_sd": 0.01,
+        "sky_sd": 0
+      },
+      "joint_coverage": 0.9455,
+      "coverage_mc_se": 0.005075911248239078,
+      "normalized_bias": [
+        0.01781954170522982,
+        0.07150583745418569,
+        0.02955312468777869
+      ],
+      "coordinate_sd": [
+        0.008620288451352548,
+        0.0062848458812503364,
+        0.00472153224152478
+      ],
+      "covariance_relative_error": 0.037598995838418976,
+      "profile_fisher_eigenvalues": [
+        12368.065549832469,
+        25325.094864745766,
+        63445.27782838643
+      ],
+      "profile_condition": 5.129765651124465,
+      "biased_calibration_mean_error": [
+        -0.02984639041043001,
+        0.000449403168009295,
+        0.00013953603105115053
+      ],
+      "biased_calibration_joint_coverage": 0.082
+    },
+    {
+      "stratum": {
+        "d": [
+          -0.02,
+          0.015,
+          -0.01
+        ],
+        "cal_sd": 0.05,
+        "sky_sd": 0
+      },
+      "joint_coverage": 0.951,
+      "coverage_mc_se": 0.004826955562256609,
+      "normalized_bias": [
+        -0.0018379741458094925,
+        -0.008980234824669307,
+        0.005377165409947803
+      ],
+      "coordinate_sd": [
+        0.018226318065115998,
+        0.006285001979010614,
+        0.0058378205749972335
+      ],
+      "covariance_relative_error": 0.0392586325885681,
+      "profile_fisher_eigenvalues": [
+        2966.706973774079,
+        25312.07284868849,
+        34247.56329302202
+      ],
+      "profile_condition": 11.543965614323605,
+      "biased_calibration_mean_error": [
+        -0.030033499501376945,
+        -5.6440793645026896e-05,
+        3.139092686535908e-05
+      ],
+      "biased_calibration_joint_coverage": 0.717
+    },
+    {
+      "stratum": {
+        "d": [
+          0,
+          0,
+          0
+        ],
+        "cal_sd": 0.01,
+        "sky_sd": 0.008
+      },
+      "joint_coverage": 0.954,
+      "coverage_mc_se": 0.0046842288586276416,
+      "normalized_bias": [
+        -0.03320957443016702,
+        -0.020638155278187357,
+        -0.004319298374677187
+      ],
+      "coordinate_sd": [
+        0.011760500541410729,
+        0.010173459969502476,
+        0.009289395389784953
+      ],
+      "covariance_relative_error": 0.036995004129135825,
+      "profile_fisher_eigenvalues": [
+        6903.532014816755,
+        9663.093786928384,
+        12537.359084789357
+      ],
+      "profile_condition": 1.8160789372571833,
+      "omit_sky_joint_coverage": 0.5445,
+      "biased_calibration_mean_error": [
+        -0.030390561218065996,
+        -0.00020996144656701537,
+        -4.012367040882969e-05
+      ],
+      "biased_calibration_joint_coverage": 0.415
+    },
+    {
+      "stratum": {
+        "d": [
+          0.02,
+          -0.015,
+          0.01
+        ],
+        "cal_sd": 0.05,
+        "sky_sd": 0.008
+      },
+      "joint_coverage": 0.938,
+      "coverage_mc_se": 0.005392402062161169,
+      "normalized_bias": [
+        -0.01191128038479877,
+        -0.027220247210507142,
+        0.03446613832074152
+      ],
+      "coordinate_sd": [
+        0.01990473989307004,
+        0.010173556402564805,
+        0.00990354224840087
+      ],
+      "covariance_relative_error": 0.03488327903838314,
+      "profile_fisher_eigenvalues": [
+        2493.305027376409,
+        9661.197314292795,
+        10729.71070906117
+      ],
+      "profile_condition": 4.30340876517285,
+      "omit_sky_joint_coverage": 0.6675,
+      "biased_calibration_mean_error": [
+        -0.03023709093785282,
+        -0.0002769267202878518,
+        0.0003413368569986933
+      ],
+      "biased_calibration_joint_coverage": 0.7795
+    },
+    {
+      "stratum": {
+        "d": [
+          0.04,
+          0,
+          0
+        ],
+        "cal_sd": 0.01,
+        "sky_sd": 0.008
+      },
+      "joint_coverage": 0.9555,
+      "coverage_mc_se": 0.004610843198374891,
+      "normalized_bias": [
+        -0.004818074913418107,
+        -0.03887585089686934,
+        0.05694245504767533
+      ],
+      "coordinate_sd": [
+        0.011760500541410729,
+        0.010173459969502476,
+        0.009289395389784953
+      ],
+      "covariance_relative_error": 0.05308993687487687,
+      "profile_fisher_eigenvalues": [
+        6903.532014816755,
+        9663.093786928384,
+        12537.359084789357
+      ],
+      "profile_condition": 1.8160789372571833,
+      "omit_sky_joint_coverage": 0.5365,
+      "biased_calibration_mean_error": [
+        -0.030056662972627813,
+        -0.00039550191287964723,
+        0.0005289609794029144
+      ],
+      "biased_calibration_joint_coverage": 0.4265
+    }
+  ],
+  "checks": [
+    {
+      "name": "full_rank",
+      "pass": true
+    },
+    {
+      "name": "science_without_calibration_rank6",
+      "pass": true
+    },
+    {
+      "name": "exact_shared_null",
+      "pass": true
+    },
+    {
+      "name": "efficiency_physical",
+      "pass": true
+    },
+    {
+      "name": "0_solver",
+      "pass": true
+    },
+    {
+      "name": "0_finite",
+      "pass": true
+    },
+    {
+      "name": "0_bias",
+      "pass": true
+    },
+    {
+      "name": "0_coverage",
+      "pass": true
+    },
+    {
+      "name": "0_covariance",
+      "pass": true
+    },
+    {
+      "name": "1_solver",
+      "pass": true
+    },
+    {
+      "name": "1_finite",
+      "pass": true
+    },
+    {
+      "name": "1_bias",
+      "pass": true
+    },
+    {
+      "name": "1_coverage",
+      "pass": true
+    },
+    {
+      "name": "1_covariance",
+      "pass": true
+    },
+    {
+      "name": "2_solver",
+      "pass": true
+    },
+    {
+      "name": "2_finite",
+      "pass": true
+    },
+    {
+      "name": "2_bias",
+      "pass": true
+    },
+    {
+      "name": "2_coverage",
+      "pass": true
+    },
+    {
+      "name": "2_covariance",
+      "pass": true
+    },
+    {
+      "name": "3_solver",
+      "pass": true
+    },
+    {
+      "name": "3_finite",
+      "pass": true
+    },
+    {
+      "name": "3_bias",
+      "pass": true
+    },
+    {
+      "name": "3_coverage",
+      "pass": true
+    },
+    {
+      "name": "3_covariance",
+      "pass": true
+    },
+    {
+      "name": "4_solver",
+      "pass": true
+    },
+    {
+      "name": "4_finite",
+      "pass": true
+    },
+    {
+      "name": "4_bias",
+      "pass": true
+    },
+    {
+      "name": "4_coverage",
+      "pass": true
+    },
+    {
+      "name": "4_covariance",
+      "pass": true
+    },
+    {
+      "name": "5_solver",
+      "pass": true
+    },
+    {
+      "name": "5_finite",
+      "pass": true
+    },
+    {
+      "name": "5_bias",
+      "pass": true
+    },
+    {
+      "name": "5_coverage",
+      "pass": true
+    },
+    {
+      "name": "5_covariance",
+      "pass": true
+    }
+  ]
+}

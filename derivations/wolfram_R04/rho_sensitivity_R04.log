@@ -1,0 +1,43 @@
+<string>:9: UserWarning: Input line 1 contained no data and will not be counted towards `max_rows=50000`.  This differs from the behaviour in NumPy <=1.22 which counted lines rather than rows.  If desired, the previous behaviour can be achieved by using `itertools.islice`.
+Please see the 1.23 release notes for an example on how to do this.  If you wish to ignore this warning, use `warnings.filterwarnings`.  This warning is expected to be removed in the future and is given only once per `loadtxt` call.
+{
+ "0.0": {
+  "LCDM_chi2": 31.867250002295975,
+  "CPL_chi2": 28.650053590282624,
+  "dchi2": 3.217196412013351,
+  "sigma": 1.2810730415926757,
+  "CPL_best": [
+   0.3498569617194993,
+   0.6776357463124534,
+   -0.6832460400855251,
+   -1.0936352959792013,
+   0.02212520680367043
+  ]
+ },
+ "-0.43": {
+  "LCDM_chi2": 43.082719610319295,
+  "CPL_chi2": 34.45802207381186,
+  "dchi2": 8.624697536507433,
+  "sigma": 2.472903454170694,
+  "CPL_best": [
+   0.37103073079123655,
+   0.6599702973371542,
+   -0.44068287712137766,
+   -1.8803955479787873,
+   0.022072621046748772
+  ]
+ },
+ "0.5": {
+  "LCDM_chi2": 26.90229718616992,
+  "CPL_chi2": 25.408221731108526,
+  "dchi2": 1.4940754550613953,
+  "sigma": 0.7163619137917578,
+  "CPL_best": [
+   0.33559712819752807,
+   0.690188646182521,
+   -0.8464285374668713,
+   -0.5735411463213926,
+   0.02217057089687289
+  ]
+ }
+}

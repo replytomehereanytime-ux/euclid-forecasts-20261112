@@ -1,0 +1,22 @@
+{
+  "label": "Gaussian synthetic reference only, not Poisson validation",
+  "replay": "byte identical",
+  "files": {
+    "REPORT.md": {
+      "bytes": 7520,
+      "sha256": "cfc1d4083eb7d81b3d4abcf6fb346cbf843f9f0a7e62e5fa9ad652f83652a9b6"
+    },
+    "protocol.json": {
+      "bytes": 2054,
+      "sha256": "3dff031adf5820e6cdae3b3768302c0697e7624607701568443b398266593401"
+    },
+    "run.py": {
+      "bytes": 3714,
+      "sha256": "468458198e5ee549371a73f20ad7bd8755b79b5b4f79c1fc7e45d2f525793646"
+    },
+    "results.json": {
+      "bytes": 8005,
+      "sha256": "68b0933e69c00e22ef93fa0763dce43184725672288ffcf1ed6d884e9c45db5d"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+id,label,readiness,release,observable+units,cuts,model+params,uncertainty/cov,selection,scoring/failure,complete,readiness_consistent,reviewer_note
+D-P2a,prospective,READY,-,external-delegated,external-delegated,present,external-delegated,external-delegated,present,True,True,68% label pending the author (stated).
+D-P3a,prospective,READY,-,present,external-delegated,present,external-delegated,external-delegated,present,True,True,68% label pending the author (stated).
+D-P3b,prospective,READY,-,present,external-delegated,present,external-delegated,external-delegated,present,True,True,
+D-P3c,prospective,READY,-,present,external-delegated,present,external-delegated,external-delegated,present,True,True,
+D-P4a,prospective,READY,-,present,external-delegated,present,external-delegated,external-delegated,present,True,True,68% label pending the author.
+D-P4b,prospective,READY,-,present,external-delegated,present,external-delegated,external-delegated,present,True,True,
+D-P5a,prospective,READY,-,present,external-delegated,present,external-delegated,external-delegated,present,True,True,
+D-P5b,prospective,READY,-,present,external-delegated,present,external-delegated,external-delegated,present,True,True,
+D-P8a,prospective,READY,-,present,external-delegated,present,external-delegated,external-delegated,present,True,True,68% label pending the author.
+D-P8c,prospective,READY,-,present,present,present,present,present,present,True,True,"LABEL RISK: if no new SH0ES H0 is published after 2026-10-13 by 2027-12-31, rule scores an already-public value (R22 73.04 lies inside [72.5,73.5]); abstention field is a note, not a rule. Needs explicit NOT_RUN for no post-forecast SH0ES result."
+D-P1a,prospective,READY,-,internal,external-delegated,internal,internal,external-delegated,internal,True,True,"Observable/prediction internal-only (significance-type); complete in INTERNAL_CONTEXT, two-valued."
+D-P1b,prospective,READY,-,internal,external-delegated,internal,internal,external-delegated,internal,True,True,as D-P1a
+D-P2b,prospective,READY,-,internal,external-delegated,internal,internal,external-delegated,internal,True,True,as D-P1a; needs sigma(w_p) definition if asymmetric
+D-P8b,prospective,READY,-,internal,external-delegated,internal,internal,external-delegated,internal,True,True,"as D-P1a; T needs which DESI combination (stated in DESI_PREDICTIONS_source, not in table)"
+D-P8d,prospective,READY,-,internal,external-delegated,internal,internal,external-delegated,internal,True,True,as D-P8b
+D-P7,prospective,NOT READY,-,TBD,TBD,present,TBD,TBD,present,False,True,NOT READY correctly: hemisphere axis coordinates TBD.
+E-CD-P1,prospective,NOT READY,Foundation,present,TBD,present,TBD,TBD,internal,False,True,NOT READY correctly (cuts/mask/estimator/cov TBD; Foundation binding TBD).
+E-CD-P2,prospective,NOT READY,Foundation,present,TBD,present,TBD,TBD,present,False,True,as E-CD-P1
+E-CD-P3,prospective,NOT READY,Foundation,TBD,TBD,present,TBD,TBD,present,False,True,as E-CD-P1; binning variable TBD
+E-CD-P4,prospective,NOT READY,Foundation,present,TBD,present,TBD,TBD,internal,False,True,as E-CD-P1
+E-CD-P5,prospective,NOT READY,Foundation,present,TBD,present,TBD,TBD,internal,False,True,as E-CD-P1
+E-L-P6,prospective,NOT READY,Complete,present,TBD,TBD,TBD,TBD,internal,False,True,NOT READY correctly; DR1 Complete label correct.
+E-PHZ-1,prospective,NOT READY,Foundation,present,TBD,present,TBD,TBD,present,False,True,NOT READY correctly; Foundation PHZ label consistent with Foundation contents; truth set TBD.
+CTC-1P,conditional theory curve,READY,Complete,present,external-delegated,present,present,external-delegated,present,True,True,
+CTC-1B,conditional theory curve,READY,Complete,present,external-delegated,present,present,external-delegated,present,True,True,
+CTC-2P,conditional theory curve,READY,Complete,present,external-delegated,present,present,external-delegated,present,True,True,
+CTC-2B,conditional theory curve,READY,Complete,present,external-delegated,present,present,external-delegated,present,True,True,
+CTC-3P,conditional theory curve,READY,Complete,present,external-delegated,present,present,external-delegated,present,True,True,
+CTC-3B,conditional theory curve,READY,Complete,present,external-delegated,present,present,external-delegated,present,True,True,
+CTC-4P,conditional theory curve,READY,Complete,present,external-delegated,present,present,external-delegated,present,True,True,
+CTC-4B,conditional theory curve,READY,Complete,present,external-delegated,present,present,external-delegated,present,True,True,
+CTC-5B,conditional theory curve,READY,Complete,present,external-delegated,present,present,external-delegated,present,True,True,Complete but C_pred diag-only (declared). Reviewer MCMC supplies full 8x8 correlation if the author wants it.
+CTC-5P,conditional theory curve,NOT READY,Complete,present,external-delegated,present,TBD,external-delegated,present,False,True,NOT READY correctly (no band). Reviewer MCMC band available (not inserted).
+RF-1,retrospective fit,n/a,-,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,True,True,
+RF-2,retrospective fit,n/a,-,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,True,True,
+RF-3,retrospective fit,n/a,-,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,True,True,
+RF-4,retrospective fit,n/a,-,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,True,True,
+RF-5,retrospective fit,n/a,-,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,True,True,
+RF-6,retrospective fit,n/a,-,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,True,True,
+RF-7,retrospective fit,n/a,-,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,True,True,
+CTC-R,conditional theory curve,n/a,-,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,True,True,Not scored; illustrative; label OK.
+SYN-1,synthetic test,n/a,-,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,True,True,
+SYN-2,synthetic test,n/a,-,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,n/a-ok,True,True,

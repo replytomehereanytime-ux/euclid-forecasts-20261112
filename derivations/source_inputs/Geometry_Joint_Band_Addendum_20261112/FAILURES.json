@@ -1,0 +1,12 @@
+{
+  "updated_utc": "2026-11-12T08:20:50.352352+00:00",
+  "attempts": [
+    {
+      "status": "FAILED_BEFORE_INTEGRATION",
+      "error": "Exact covariance identity failed because a*b*rho and source rho*a*b differ by floating-point evaluation order at two entries, maximum3.469446951953614e-18.",
+      "resolution": "Match source evaluation order rho*a*b exactly; retain exact identity assertion. No data, model, prior, tolerance or scientific result changed. Initial code/log preserved in history.",
+      "initial_code_sha256": "e556228c74fedb4a8d11bfa3665135557fa73efb95f0a1700822b7497418225b",
+      "amended_code_sha256": "0d1e913cfdc8d9e4e5e43fe1434a2a410063e129928627209d98c8672ebbae5c"
+    }
+  ]
+}

@@ -55,3 +55,4 @@ The tag `freeze-20261112` records the REV1-only commit. See `SHA256SUMS` for the
 - `SHA256SUMS_REV2` — checksums of the published REV2 files
 - `SHA256SUMS_REV2_ORIGINAL` and `.ots` — Forecast Bot REV2 checksums and OpenTimestamps proof
 - REV1 counterparts of the prediction, sources, metadata, changelog and checksum files
+- `derivations/` — fit scripts, Wolfram files, chains, CSVs and run outputs behind the REV2 rows (see `derivations/README.md`)

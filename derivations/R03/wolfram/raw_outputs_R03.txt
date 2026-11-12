@@ -1,0 +1,4 @@
+# Wolfram MCP WolframLanguageEvaluator, R03, 2026-11-12 ~09:57 UTC (04:57 ET). Code: wolfram/callB0_wbaoonly.wl (R02 common_R02.wl lines 1-16 + BF-2 setup).
+# Messages: Symbol::undefined2 warnings (lint only).
+Out[1]= {"15.0.1 for Linux x86 (64-bit) (July 2, 2026)", {"REPLACEMENT", 12.468275166582316, 0.30297048098322554, -0.965621910309643, 29.85601752842028}, {"PRIMARY", 9.041046606405871, 0.29769351656576704, -0.9118995703927504, 30.05410573340305}}
+# fields: branch, chi2_min (13 BAO points, descriptive), Omega_m, w, A=c/(H0 rd)  [BAO-only, flat wCDM, no radiation, A profiled analytically]

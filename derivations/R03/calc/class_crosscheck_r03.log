@@ -1,0 +1,5 @@
+LCDM_REPL_fullrs rd_formula/CLASS-1 8.61e-04 rs*(R03 full)/CLASS-1 3.79e-04 trunc -1.80e-02 max DM 2.5e-07 DH 5.9e-07
+wCDM_REPL_fullrs rd_formula/CLASS-1 8.66e-04 rs*(R03 full)/CLASS-1 3.79e-04 trunc -1.80e-02 max DM 2.6e-07 DH 5.9e-07
+CPL_PRIM_fullrs_best rd_formula/CLASS-1 8.89e-04 rs*(R03 full)/CLASS-1 3.78e-04 trunc -1.80e-02 max DM 2.7e-06 DH 1.7e-06
+LCDM_PRIM_R02_old_best rd_formula/CLASS-1 1.50e-03 rs*(R03 full)/CLASS-1 3.65e-04 trunc -1.85e-02 max DM 2.3e-07 DH 5.4e-07
+{'DM': np.float64(0.0004856563571198347), 'DH': np.float64(0.00024032899843806632), 'rd': 0.0009637697766069486, 'DMrd': np.float64(0.0009228768961968559)}
